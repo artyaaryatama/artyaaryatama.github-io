@@ -1,0 +1,55 @@
+<svg width="532" height="472" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+ <defs>
+  <filter id="svg_23_blur">
+   <feGaussianBlur stdDeviation="0" in="SourceGraphic"/>
+  </filter>
+ </defs>
+ <g>
+  <title>background</title>
+  <rect fill="#83abd3" id="canvas_background" height="474" width="534" y="-1" x="-1"/>
+  <g display="none" overflow="visible" y="0" x="0" height="100%" width="100%" id="canvasGrid">
+   <rect fill="url(#gridpattern)" stroke-width="0" y="1" x="1" height="470" width="730"/>
+  </g>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <text font-weight="bold" xml:space="preserve" text-anchor="start" font-family="'Trebuchet MS', Gadget, sans-serif" font-size="26" id="svg_8" y="43.67188" x="114.31156" fill-opacity="null" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#ffffff">TCP/IP MODEL REFRENCE</text>
+  <text xml:space="preserve" text-anchor="start" font-family="'Trebuchet MS', Gadget, sans-serif" font-size="20" id="svg_21" y="81" x="71" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#ffffff">Source Host</text>
+  <rect stroke="#ffffff" filter="url(#svg_23_blur)" id="svg_23" height="41" width="159.99999" y="103" x="41.5" stroke-width="0" fill="#ffffff"/>
+  <text stroke="#cee6ff" font-weight="bold" xml:space="preserve" text-anchor="start" font-family="'Trebuchet MS', Gadget, sans-serif" font-size="17" id="svg_24" y="129" x="56.51597" stroke-width="0" fill="#83abd3">Aplication Layer</text>
+  <path transform="rotate(89.58679962158203 119.21714782714841,156.23876953125003) " stroke="#ffffff" id="svg_25" d="m117.30793,168.30123l6.65903,-7.45035l-12.87492,0l-12.87489,0l0,-4.61212l0,-4.61212l12.72719,0c6.99994,0 12.72718,-0.23376 12.72718,-0.51948c0,-0.28571 -2.78666,-3.63836 -6.19256,-7.45034l-6.19258,-6.93088l5.72384,0l5.72382,0l8.74156,9.76575l8.74156,9.76575l-8.75833,9.74706l-8.75832,9.74706l-6.02581,0l-6.02582,0l6.65905,-7.45035l0,0z" stroke-width="0" fill="#ffffff"/>
+  <rect stroke="#ffffff" filter="url(#svg_23_blur)" id="svg_26" height="41" width="159.99999" y="179" x="41.5" stroke-width="0" fill="#ffffff"/>
+  <text style="cursor: move;" stroke="#cee6ff" font-weight="bold" xml:space="preserve" text-anchor="start" font-family="'Trebuchet MS', Gadget, sans-serif" font-size="17" id="svg_27" y="205" x="56.51597" stroke-width="0" fill="#83abd3">Transport Layer</text>
+  <rect stroke="#ffffff" filter="url(#svg_23_blur)" id="svg_29" height="41" width="159.99999" y="255" x="41.5" stroke-width="0" fill="#ffffff"/>
+  <text style="cursor: move;" stroke="#cee6ff" font-weight="bold" xml:space="preserve" text-anchor="start" font-family="'Trebuchet MS', Gadget, sans-serif" font-size="17" id="svg_30" y="281" x="60.45208" stroke-width="0" fill="#83abd3">Network Layer</text>
+  <rect stroke="#ffffff" filter="url(#svg_23_blur)" id="svg_32" height="41" width="159.99999" y="332" x="42.5" stroke-width="0" fill="#ffffff"/>
+  <text style="cursor: move;" stroke="#cee6ff" font-weight="bold" xml:space="preserve" text-anchor="start" font-family="'Trebuchet MS', Gadget, sans-serif" font-size="17" id="svg_33" y="358" x="57.5" stroke-width="0" fill="#83abd3">Data Link Layer</text>
+  <rect stroke="#ffffff" filter="url(#svg_23_blur)" id="svg_35" height="41" width="159.99999" y="408" x="41.5" stroke-width="0" fill="#ffffff"/>
+  <text stroke="#cee6ff" font-weight="bold" xml:space="preserve" text-anchor="start" font-family="'Trebuchet MS', Gadget, sans-serif" font-size="17" id="svg_36" y="434" x="62.42013" stroke-width="0" fill="#83abd3">Physical Layer</text>
+  <text font-weight="bold" xml:space="preserve" text-anchor="start" font-family="Arvo, sans-serif" font-size="16" id="svg_38" y="130" x="242.35394" stroke-opacity="null" stroke-width="0" stroke="#ffffff" fill="#1F361B">DATA</text>
+  <path transform="rotate(89.58679962158203 119.21714782714844,232.23876953125) " stroke="#ffffff" id="svg_40" d="m117.30793,244.30123l6.65903,-7.45035l-12.87492,0l-12.87488,0l0,-4.61211l0,-4.61213l12.72718,0c6.99995,0 12.72718,-0.23376 12.72718,-0.51947c0,-0.28571 -2.78665,-3.63837 -6.19256,-7.45035l-6.19258,-6.93087l5.72384,0l5.72381,0l8.74156,9.76575l8.74156,9.76575l-8.75832,9.74706l-8.75833,9.74707l-6.02581,0l-6.02582,0l6.65905,-7.45035l0.00001,0z" stroke-width="0" fill="#ffffff"/>
+  <path transform="rotate(89.58679962158203 119.21714782714844,308.23876953125) " stroke="#ffffff" id="svg_41" d="m117.30793,320.30123l6.65903,-7.45035l-12.87492,0l-12.87488,0l0,-4.61211l0,-4.61213l12.72718,0c6.99995,0 12.72718,-0.23376 12.72718,-0.51947c0,-0.28571 -2.78665,-3.63837 -6.19256,-7.45035l-6.19258,-6.93087l5.72384,0l5.72381,0l8.74156,9.76575l8.74156,9.76575l-8.75832,9.74706l-8.75833,9.74707l-6.02581,0l-6.02582,0l6.65905,-7.45035l0.00001,0z" stroke-width="0" fill="#ffffff"/>
+  <path transform="rotate(89.58679962158203 119.21714782714844,384.23876953125) " stroke="#ffffff" id="svg_42" d="m117.30793,396.30123l6.65903,-7.45035l-12.87492,0l-12.87488,0l0,-4.61211l0,-4.61213l12.72718,0c6.99995,0 12.72718,-0.23376 12.72718,-0.51947c0,-0.28571 -2.78665,-3.63837 -6.19256,-7.45035l-6.19258,-6.93087l5.72384,0l5.72381,0l8.74156,9.76575l8.74156,9.76575l-8.75832,9.74706l-8.75833,9.74707l-6.02581,0l-6.02582,0l6.65905,-7.45035l0.00001,0z" stroke-width="0" fill="#ffffff"/>
+  <text font-weight="bold" xml:space="preserve" text-anchor="start" font-family="Arvo, sans-serif" font-size="16" id="svg_43" y="205" x="224.3764" stroke-opacity="null" stroke-width="0" stroke="#ffffff" fill="#1F361B">SEGMENT</text>
+  <text font-weight="bold" xml:space="preserve" text-anchor="start" font-family="Arvo, sans-serif" font-size="16" id="svg_44" y="283" x="228.87079" stroke-opacity="null" stroke-width="0" stroke="#ffffff" fill="#1F361B">PACKET</text>
+  <text font-weight="bold" xml:space="preserve" text-anchor="start" font-family="Arvo, sans-serif" font-size="16" id="svg_45" y="357" x="231.11798" stroke-opacity="null" stroke-width="0" stroke="#ffffff" fill="#1F361B">FRAME</text>
+  <rect stroke="#ffffff" filter="url(#svg_23_blur)" id="svg_46" height="41" width="159.99999" y="103" x="328.5" stroke-width="0" fill="#ffffff"/>
+  <text stroke="#cee6ff" font-weight="bold" xml:space="preserve" text-anchor="start" font-family="'Trebuchet MS', Gadget, sans-serif" font-size="17" id="svg_47" y="129" x="343.51597" stroke-width="0" fill="#83abd3">Aplication Layer</text>
+  <rect stroke="#ffffff" filter="url(#svg_23_blur)" id="svg_49" height="41" width="159.99999" y="179" x="328.5" stroke-width="0" fill="#ffffff"/>
+  <text style="cursor: move;" stroke="#cee6ff" font-weight="bold" xml:space="preserve" text-anchor="start" font-family="'Trebuchet MS', Gadget, sans-serif" font-size="17" id="svg_50" y="205" x="343.51597" stroke-width="0" fill="#83abd3">Transport Layer</text>
+  <rect stroke="#ffffff" filter="url(#svg_23_blur)" id="svg_51" height="41" width="159.99999" y="255" x="328.5" stroke-width="0" fill="#ffffff"/>
+  <text style="cursor: move;" stroke="#cee6ff" font-weight="bold" xml:space="preserve" text-anchor="start" font-family="'Trebuchet MS', Gadget, sans-serif" font-size="17" id="svg_52" y="281" x="347.45208" stroke-width="0" fill="#83abd3">Network Layer</text>
+  <rect stroke="#ffffff" filter="url(#svg_23_blur)" id="svg_53" height="41" width="159.99999" y="332" x="329.5" stroke-width="0" fill="#ffffff"/>
+  <text style="cursor: move;" stroke="#cee6ff" font-weight="bold" xml:space="preserve" text-anchor="start" font-family="'Trebuchet MS', Gadget, sans-serif" font-size="17" id="svg_54" y="358" x="344.5" stroke-width="0" fill="#83abd3">Data Link Layer</text>
+  <rect stroke="#ffffff" filter="url(#svg_23_blur)" id="svg_55" height="41" width="159.99999" y="408" x="328.5" stroke-width="0" fill="#ffffff"/>
+  <text stroke="#cee6ff" font-weight="bold" xml:space="preserve" text-anchor="start" font-family="'Trebuchet MS', Gadget, sans-serif" font-size="17" id="svg_56" y="434" x="349.42013" stroke-width="0" fill="#83abd3">Physical Layer</text>
+  <path transform="rotate(-90.1825942993164 406.2171630859375,395.26995849609375) " stroke="#ffffff" id="svg_59" d="m404.30793,407.33232l6.65903,-7.45035l-12.87492,0l-12.87488,0l0,-4.61211l0,-4.61213l12.72718,0c6.99995,0 12.72718,-0.23376 12.72718,-0.51947c0,-0.28571 -2.78665,-3.63837 -6.19256,-7.45035l-6.19258,-6.93087l5.72384,0l5.72381,0l8.74156,9.76575l8.74156,9.76575l-8.75832,9.74706l-8.75833,9.74707l-6.02581,0l-6.02582,0l6.65905,-7.45035l0.00001,0z" stroke-width="0" fill="#ffffff"/>
+  <path transform="rotate(-90.1825942993164 406.21716308593744,317.8984985351562) " stroke="#ffffff" id="svg_60" d="m404.30793,329.95957l6.65903,-7.45035l-12.87492,0l-12.87488,0l0,-4.61211l0,-4.61213l12.72718,0c6.99995,0 12.72718,-0.23376 12.72718,-0.51947c0,-0.28571 -2.78665,-3.63837 -6.19256,-7.45035l-6.19258,-6.93087l5.72384,0l5.72381,0l8.74156,9.76575l8.74156,9.76575l-8.75832,9.74706l-8.75833,9.74707l-6.02581,0l-6.02582,0l6.65905,-7.45035l0.00001,0z" stroke-width="0" fill="#ffffff"/>
+  <path transform="rotate(-90.1825942993164 406.2171630859375,241.986572265625) " stroke="#ffffff" id="svg_61" d="m404.30793,254.04668l6.65903,-7.45035l-12.87492,0l-12.87488,0l0,-4.61211l0,-4.61213l12.72718,0c6.99995,0 12.72718,-0.23376 12.72718,-0.51947c0,-0.28571 -2.78665,-3.63837 -6.19256,-7.45035l-6.19258,-6.93087l5.72384,0l5.72381,0l8.74156,9.76575l8.74156,9.76575l-8.75832,9.74706l-8.75833,9.74707l-6.02581,0l-6.02582,0l6.65905,-7.45035l0.00001,0z" stroke-width="0" fill="#ffffff"/>
+  <path transform="rotate(-90.1825942993164 406.21716308593756,166.07336425781256) " stroke="#ffffff" id="svg_62" d="m404.30793,178.13379l6.65903,-7.45035l-12.87492,0l-12.87488,0l0,-4.61211l0,-4.61213l12.72718,0c6.99995,0 12.72718,-0.23376 12.72718,-0.51947c0,-0.28571 -2.78665,-3.63837 -6.19256,-7.45035l-6.19258,-6.93087l5.72384,0l5.72381,0l8.74156,9.76575l8.74156,9.76575l-8.75832,9.74706l-8.75833,9.74707l-6.02581,0l-6.02582,0l6.65905,-7.45035l0.00001,0z" stroke-width="0" fill="#ffffff"/>
+  <line stroke-linecap="null" stroke-linejoin="null" id="svg_66" y2="427.24012" x2="334.40857" y1="427" x1="195.6989" fill-opacity="null" stroke-opacity="null" stroke-width="5" stroke="#ffffff" fill="none"/>
+  <text stroke="#ffffff" transform="matrix(3.432948471011059,0,0,3.7239816188812256,-598.098087074226,-1060.6077806390822) " xml:space="preserve" text-anchor="start" font-family="Arvo, sans-serif" font-size="16" id="svg_76" y="404.86452" x="246.12591" stroke-opacity="null" stroke-width="0" fill="#ffffff">&gt;</text>
+  <text xml:space="preserve" text-anchor="start" font-family="'Trebuchet MS', Gadget, sans-serif" font-size="20" id="svg_77" y="81" x="337.29218" stroke-opacity="null" stroke-width="0" stroke="#000" fill="#ffffff">Destinition Host</text>
+ </g>
+</svg>

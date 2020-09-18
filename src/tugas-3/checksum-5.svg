@@ -1,0 +1,36 @@
+<svg width="650" height="403" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+
+ <g>
+  <title>background</title>
+  <rect x="-1" y="-1" width="652" height="405" id="canvas_background" fill="#fff"/>
+  <g id="canvasGrid" display="none">
+   <rect id="svg_5" width="100%" height="100%" x="0" y="0" stroke-width="0" fill="url(#gridpattern)"/>
+  </g>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <text fill="#000000" stroke="#000" stroke-width="0" x="123.00687" y="98.66642" id="svg_1" font-size="24" font-family="'Trebuchet MS', Gadget, sans-serif" text-anchor="start" xml:space="preserve">0     0     1     0    	0    	1    	0    	0</text>
+  <text fill="#000000" stroke="#000" stroke-width="0" x="123.00687" y="126.66642" id="svg_2" font-size="24" font-family="'Trebuchet MS', Gadget, sans-serif" text-anchor="start" xml:space="preserve">1     1     1     0    	0    	0    	1    	0</text>
+  <text fill="#000000" stroke="#000" stroke-width="0" x="123.00687" y="154.66642" id="svg_3" font-size="24" font-family="'Trebuchet MS', Gadget, sans-serif" text-anchor="start" xml:space="preserve">1     0     0     1    	1    	0    	0    	1</text>
+  <text fill="#000000" stroke="#000" stroke-width="0" x="123.00687" y="70.66642" id="svg_4" font-size="24" font-family="'Trebuchet MS', Gadget, sans-serif" text-anchor="start" xml:space="preserve">1     0     0     0    	0    	1    	0    	0</text>
+  <text fill="#000000" stroke="#000" stroke-width="0" x="122.00687" y="42.66642" id="svg_6" font-size="24" font-family="'Trebuchet MS', Gadget, sans-serif" text-anchor="start" xml:space="preserve">1     1     1     1</text>
+  <text fill="#000000" stroke="#000" stroke-width="0" x="26.00687" y="200.66644" id="svg_9" font-size="24" font-family="'Trebuchet MS', Gadget, sans-serif" text-anchor="start" xml:space="preserve">1     0     0     0    	1    	0    	0    	0     1     1</text>
+  <text fill="#000000" stroke="#000" stroke-width="0" x="296" y="40.66642" id="svg_12" font-size="15" font-family="'Trebuchet MS', Gadget, sans-serif" text-anchor="start" xml:space="preserve">&lt;------------------------------------------------- Carry</text>
+  <text fill="#000000" stroke="#000" stroke-width="0" x="481" y="198.66644" id="svg_13" font-size="15" font-family="'Trebuchet MS', Gadget, sans-serif" text-anchor="start" xml:space="preserve">&lt;--------------- Hasil 1</text>
+  <text fill="#000000" stroke="#000" stroke-width="0" x="22.00686" y="229.99991" id="svg_14" font-size="24" font-family="'Trebuchet MS', Gadget, sans-serif" text-anchor="start" xml:space="preserve">-------------------------------------------- 1     0</text>
+  <line fill="none" stroke-opacity="null" x1="17.49959" y1="242.44802" x2="539.5" y2="240.44802" id="svg_16" stroke-linejoin="null" stroke-linecap="null" stroke="#000"/>
+  <text fill="#000000" stroke="#000" stroke-width="0" x="481" y="264.00007" id="svg_19" font-size="15" font-family="'Trebuchet MS', Gadget, sans-serif" text-anchor="start" xml:space="preserve">&lt;--------------- Hasil 2</text>
+  <text fill="#000000" stroke="#000" stroke-width="0" x="123.00687" y="268.00027" id="svg_20" font-size="24" font-family="'Trebuchet MS', Gadget, sans-serif" text-anchor="start" xml:space="preserve">0     0     1     0    	0    	1    	0    	1</text>
+  <line fill="none" stroke-opacity="null" x1="17.49959" y1="171.11475" x2="539.5" y2="169.11475" id="svg_22" stroke-linejoin="null" stroke-linecap="null" stroke="#000"/>
+  <line fill="none" stroke-opacity="null" x1="17.49959" y1="283.11465" x2="539.5" y2="281.11465" id="svg_23" stroke-linejoin="null" stroke-linecap="null" stroke="#000"/>
+  <text fill="#007fff" stroke="#000" stroke-width="0" x="123.00687" y="308.6669" id="svg_24" font-size="24" font-family="'Trebuchet MS', Gadget, sans-serif" text-anchor="start" xml:space="preserve">1     1     0     1    	1    	0    	1    	0</text>
+  <text fill="#007fff" stroke="#000" stroke-width="0" x="481" y="302.66671" id="svg_25" font-size="15" font-family="'Trebuchet MS', Gadget, sans-serif" text-anchor="start" xml:space="preserve">&lt;------------- Checksum</text>
+  <text fill="#007fff" stroke="#000" stroke-width="0" x="481" y="321.66671" id="svg_7" font-size="15" font-family="'Trebuchet MS', Gadget, sans-serif" text-anchor="start" xml:space="preserve">Penerima</text>
+  <text xml:space="preserve" text-anchor="start" font-family="'Trebuchet MS', Gadget, sans-serif" font-size="15" id="svg_8" y="319.5" x="2.5" stroke-width="0" stroke="#000" fill="#bf0000">Ternyata hasilnya</text>
+  <text fill="#5fbf00" stroke="#000" stroke-width="0" x="123.00687" y="351.6669" id="svg_10" font-size="24" font-family="'Trebuchet MS', Gadget, sans-serif" text-anchor="start" xml:space="preserve">1     1     0     1    	1    	0    	1    	0</text>
+  <text fill="#5fbf00" stroke="#000" stroke-width="0" x="481" y="345.66671" id="svg_11" font-size="15" font-family="'Trebuchet MS', Gadget, sans-serif" text-anchor="start" xml:space="preserve">&lt;------------- Checksum</text>
+  <text fill="#5fbf00" stroke="#000" stroke-width="0" x="481" y="362.66671" id="svg_15" font-size="15" font-family="'Trebuchet MS', Gadget, sans-serif" text-anchor="start" xml:space="preserve">Pengirim</text>
+  <text font-weight="bold" xml:space="preserve" text-anchor="start" font-family="'Trebuchet MS', Gadget, sans-serif" font-size="21" id="svg_17" y="347.5" x="27.5" stroke-width="0" stroke="#000" fill="#ff0000">SAMA</text>
+ </g>
+</svg>
