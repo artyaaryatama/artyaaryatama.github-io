@@ -1,0 +1,532 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="stylesheet.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/8706c481a3.js" crossorigin="anonymous"></script>
+
+    <title>Tugas Pertemuan 5 Jaringan Komputer</title>
+  </head>
+  <body id="tugas-5">
+    <nav class="navbar navbar-expand-md navbar-light ">
+        <div class="container">
+            <a class="navbar-brand active">
+                <img src="src/tugas-5/binary-code.svg" width="50" class="mr-3" height="50" alt="binary-code icon" loading="lazy">
+              </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Tugas Lain<span class="sr-only">(current)</span>
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="tugas-3.html">Pertemuan 3</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="tugas-5.html">Pertemuan 5</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">-</a>
+                  </div>
+                </li>
+                <ul class="sosmed">
+                    <li> <a class="nav-link" href="https://github.com/artyaaryatama"target="_blank"><i class="fab fa-github""></i></a></li>
+                    <li> <a  class="nav-link"  href="https://www.instagram.com/artiaudr/" target="_blank"><i class="fab fa-instagram""></i></a> </li>
+                    <li> <a href="mailto:artyaaryatama21@gmail.com" target="_blank" class="nav-link"><i class="far fa-envelope" ></i></a> </li>
+                </ul>
+              </ul>
+            </div>
+        </div>
+    </nav>
+      <!-- === END OF NAVBAR === -->
+
+    <section class="section">
+        <div class="intro">
+            <div class="jumbotron">
+                <div class="container mt-3 mb-5">
+                    <div class="row jumbo-margin">
+                        <div class="col-md-3 text-center">
+                            <img src="src/tugas-5/algorithm.svg" alt="Data Picture by Flaticon" class="jumbotron-image">
+                        </div>
+                        <div class="col-md-9">
+                            <h1 class="display-4">JARINGAN <span>KOMPUTER</span></h1>
+                            <p class="lead jumbo-text">Tugas Pertemuan 5 Tentang Prinsip Kerja TCP/IP.</p>
+                            <button class="btn btn-sm" data-placement="right" data-trigger="focus" data-toggle="popover" title="Fungsi layer pada model refrence TCP/IP" data-content="Pertama, untuk memudahkan kita menemukan error dalam proses troubleshooting. Kedua, untuk memudahkan pembagian tugas pada komputer. Ketiga, untuk mengatur pemrosessan data agar komunikasi antar device lancar">Mengapa model refrence TCP/IP dibuat berlayer ?</button>
+                            <p class="para pt-1">**Klik button diatas untuk mengetahui alasannya</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main-content">
+            <div class="container">
+                <div class="container-model text-para">
+                    <h2 class="text-center mb-3">MODEL REFRENSI TCP/IP</h2>
+                    <div class="text-center">
+                        <img src="src/tugas-5/model-refrence-TCP.svg"  alt="Model Refrence TCP/IP" class="image-model">
+                    </div>
+                    <div class="mt-4">
+                        <h3>Application Layer</h3>
+                        <p>
+                            Application Layer, sebagai penyedia layanan aplikasi yang berjalan di komputer dan sebagai high-level protocol yang melakukan proses representasi dan encoding. Protokol-protokol yang beroperasi pada Application Layer : HTTP, FTP, POP3, SMTP, dll. 
+                            <ul>
+                                <li>HTTP  (Hypertext Transfer Protocol) digunakan oleh World Wide Web (WWW) untuk mengatur komunikasi antara web browser dengan server.</li>
+                                <li>SMTP (Simple Mail Transfer Protokol) digunakan untuk mengirimkan email dari local email ke server, sebelum akhirnya dikirimkan ke server email penerima. </li>
+                                <li>FTP (File Tranfer Protocol) digunakan untuk pentransferan berkas (file) komputer antar mesin-mesin dalam sebuah internetwork. </li>
+                                <li>Dsb.</li>
+                            </ul>
+                        </p>
+    
+                        <h3>Transport Layer</h3>
+                        <p>
+                            Transport Layer, berperan untuk membangun koneksi antar host, antar komputer pengirim dengan komputer penerima, antara client dan server. 
+                            <ul>
+                                <li>Memecah data ke dalam paket – paket data</li>
+                                <li>Mentransmisikan data dari session layer menuju network layer, maupun sebaliknya.</li>
+                                <li>Membuat penomoran pada paket – paket data, sehingga nantinya dapat disusun kembali dengan mudah</li>
+                                <li>Melakukan proses transmisi ulang pada paket data yang hilang</li>
+                            </ul>
+                            Beberapa protocol yang digunakan dalam Transport Layer : 
+                            <ol>
+                                <li>TCP/IP</li>
+                                <li>UDP</li>
+                                <li>Port Number</li>
+                            </ol>
+                        </p>
+    
+                        <h3>Network Layer</h3>
+                        <p>
+                            Network Layer, menambahkan beberapa informasi tambahan dari segment dan menjadi packet dan menentukan jalur atau rute pengiriman packet data (Routing). Beberapa informasi yang ditambahkan adalah :
+                            <ul>
+                                <li>IP Adress pengirim</li>
+                                <li>IP Address penerima</li>
+                                <li>TTL(time to leave)</li>
+                                <li>Identifikasi</li>
+                            </ul>
+                        </p>
+    
+                        <h3>Data Link</h3>
+                        <p>
+                            Data link layer juga memiliki fungsi diantara lain :
+                            <ul>
+                                <li>Pengkoreksi kesalahan</li>
+                                <li>Menentukan bagaimana setiap bit dari data dikelompokan ke dalam frame</li>
+                                <li>Pengalamatan perangkat keras</li>
+                                <li>Menentukan bagaimana sebuah perangkat keras dapat beroperasi. </li>
+                            </ul>
+                        </p>
+    
+                        <h3>Physical Layer</h3>
+                        <p>
+                            Physical Layer memiliki fungsi diantara lain :
+                            <ul>
+                                <li>Mendefinisikan media transmisi jaringan</li>
+                                <li>Mendefinisikan metode persinyalan</li>
+                                <li>Sinkronisasi bit data</li>
+                                <li>Mendefinisikan arsitektur jaringan</li>
+                                <li>Mengaplikasikan topologi jaringan</li>
+                                <li>Melakukan proses pengkabelan</li>
+                                <li>Mendefinisikan LAN Card atau NIC dalam bekerja dengan gelombang radio</li>
+                            </ul>
+                        </p>
+                    
+                    </div>
+            
+                </div>
+
+            </div>
+        </div>
+
+        <div class="content-child mt-5 mb-4">
+            <hr>
+            <div class="mekanisme container">
+                <div class="container-model">
+                    <h3 class="text-center mb-4 mt-4">Mekanisme Pembukaan dan Penutupan Hubungan Komunikasi</h3>
+                    <img src="src/tugas-5/mekanisme-koneksi.png" alt="(Gambar 5) Mekanisme Hubungan Komunikasi" class="mx-auto d-block mb-1 mt-1 img-thumbnail">
+                    <p class="text-muted text-center font-italic mt-2">Gambar 5 Pembentukan dan Pemutusan Koneksi.</p>
+                    <div class="mt-4 text-para">
+                        <p>
+                            Pada gambar 5 diatas adalah contoh yang sangat sederhana dari pembukaan hubungan TCP antara sebuah client dan server. Dapat kita lihat bahwa untuk memulai pembukaan suatu hubungan, client harus terlebih dahulu mengirimkan paket SYN (Synchronize). Setelah menerima paket tersebut server mengirimkan paket tersebut kembali. SYN miliknya serta Acknowlwdge (ACK) terhadap paket SYN sebelumnya. Saat client menerima paket ini, ia akan mengacknowledge serta mengirimkan data miliknya. Pada saat ini terbentuklah koneksi TCP antara dua komputer yaitu client dan server. Angka dalam kurung yang mengikuti SYN pada gambar 5 diatas adalah representasi dari sequence number. Sequence number ini pada awalnya dihasilkan secara acak. Setiap acknowledge terhadap satu paket harus diikuti sequence number yang lebih tinggi dibanding sequence number sebelumnya. Untuk pemutusan hubungan TCP, kedua sisi harus mengirimkan paket yang berisi FIN (finish). Paket ini harus di acknowledge oleh lawan sebelum koneksi berakhir. 
+                        </p>
+                    </div>
+                </div>                
+            </div>
+        </div>
+
+        <div class="content-child mb-4">
+            <hr>
+            <div class="container">
+                <div class="container-model">
+                    <h3 class="text-center mt-4 mb-4">TCP (Transmission Control Protocol)</h3>
+                    TCP merupakan suatu standar komunikasi yang digunakan untuk bertukar data antar komputer yang terhubung melalui jaringan internet. Pada Transport Layer  model Refrence TCP/IP protocol yang digunakan hanyalah TCP/IP saja.  
+                    TCP bekerja dengan pengalamatan port sebagai berikut :
+                    <ol class="pt-2">
+                        <li>
+                            Low Port (Standard Service Port) merupakan port yang nilainya dibawah 1024 atau yang masuk dalam kategori System/Well-Known Port. Port ini telah digunakan oleh service standart. Seperti port 80 (HTTP), 443 (HTTPS), 53 (DNS), 22 (SSH), 23 (Telnet), 110 (POP3), SMTP (25), dll.
+                        </li>
+                        <li>
+                            High port (untuk transmisi lanjutan) merupakan port yang nilainya antara 1025-65536 atau yang masuk dalam kategori registered port dan dynamic/private port. Port ini untuk transmisi atau service yang bersifat custom/tidak standart. Misalnya kita membuat proxy server. 
+                        </li>
+                    </ol>
+                    
+                    <div class="acordion transport-layer" id="bagian1">
+                        <div class="card mb-2 mt-2">
+                            <div class="card-header header-card-content" id="header1">
+                                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse1"><h5><u>Karakteristik TCP</u></h5></button>
+                            </div>
+                            <div id="collapse1" class="collapse" aria-labelledby="header1" data-parent="#bagian1">
+                                <div class="card-body">
+                                    <h5>Karakteristik TCP</h5>
+                                    <ol>
+                                        <li>
+                                            Berorientasi sambungan (connection-oriented): Sebelum data dapat ditransmisikan antara dua host, dua proses yang berjalan pada lapisan aplikasi harus melakukan negosiasi untuk membuat sesi koneksi terlebih dahulu. Koneksi TCP ditutup dengan menggunakan proses terminasi koneksi TCP (TCP connection termination).
+                                        </li>
+                                            
+                                        <li>
+                                            Full-duplex: Untuk setiap host TCP, koneksi yang terjadi antara dua host terdiri atas dua buah jalur, yakni jalur keluar dan jalur masuk. Dengan menggunakan teknologi lapisan yang lebih rendah yang mendukung full-duplex, maka data pun dapat secara simultan diterima dan dikirim. Header TCP berisi nomor urut (TCP sequence number) dari data yang ditransmisikan dan sebuah acknowledgment dari data yang masuk.
+                                        </li>
+                                        
+                                        <li>
+                                            Dapat diandalkan (reliable): Data yang dikirimkan ke sebuah koneksi TCP akan diurutkan dengan sebuah nomor urut paket dan akan mengharapkan paket positive acknowledgment dari penerima. Jika tidak ada paket Acknowledgment dari penerima, maka segmen TCP (protocol data unit dalam protokol TCP) akan ditransmisikan ulang. Pada pihak penerima, segmen-segmen duplikat akan diabaikan dan segmen-segmen yang datang tidak sesuai dengan urutannya akan diletakkan di belakang untuk mengurutkan segmen-segmen TCP. Untuk menjamin integritas setiap segmen TCP, TCP mengimplementasikan penghitungan TCP Checksum.
+                                        </li>
+                                        
+                                        <li>
+                                            Byte stream: TCP melihat data yang dikirimkan dan diterima melalui dua jalur masuk dan jalur keluar TCP sebagai sebuah byte stream yang berdekatan (kontigu). Nomor urut TCP dan nomor acknowlegment dalam setiap header TCP didefinisikan juga dalam bentuk byte. Meski demikian, TCP tidak mengetahui batasan pesan-pesan di dalam byte stream TCP tersebut. Untuk melakukannya, hal ini diserahkan kepada protokol lapisan aplikasi (dalam DARPA Reference Model), yang harus menerjemahkan byte stream TCP ke dalam "bahasa" yang ia pahami.
+                                        </li>
+                                    
+                                        <li>
+                                            Memiliki layanan flow control: Untuk mencegah data terlalu banyak dikirimkan pada satu waktu, yang akhirnya membuat "macet" jaringan internetwork IP, TCP mengimplementasikan layanan flow control yang dimiliki oleh pihak pengirim yang secara terus menerus memantau dan membatasi jumlah data yang dikirimkan pada satu waktu. Untuk mencegah pihak penerima untuk memperoleh data yang tidak dapat disangganya (buffer), TCP juga mengimplementasikan flow control dalam pihak penerima, yang mengindikasikan jumlah buffer yang masih tersedia dalam pihak penerima.
+                                        </li>
+                                        
+                                        <li>
+                                            Mengirimkan paket secara "one-to-one": hal ini karena memang TCP harus membuat sebuah sirkuit logis antara dua buah protokol lapisan aplikasi agar saling dapat berkomunikasi. TCP tidak menyediakan layanan pengiriman data secara one-to-many.
+                                        </li>
+                                    </ol>
+                                </div> 
+                            </div>
+                        </div>
+                        <!-- =====END KARAKTERISTIK TCP======   -->
+
+                        <div class="card mb-2">
+                            <div class="card-header header-card-content" id="header2">
+                                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse2"><h5><U>Prinsip Kerja TCP</U></h5></button>
+                            </div>
+                            <div id="collapse2" class="collapse" aria-labelledby="header2" data-parent="#bagian1" >
+                                <div class="card-body">
+                                    <h5>Prinsip Kerja TCP</h5>
+                                    <ol class="pt-2">
+                                        <li>
+                                            Connection Oriented <br>
+                                            <img src="src/tugas-3/3-way-handshake.png" alt="3-way-handshake" class="mx-auto d-block mb-1 mt-1 img-thumbnail" > <br>
+                                            Proses pembuatan koneksi TCP disebut juga dengan "Three-way Handshake". Tujuan metode ini adalah agar dapat melakukan sinkronisasi terhadap nomor urut dan nomor acknowledgement yang dikirimkan oleh kedua pihak dan saling bertukar ukuran TCP Window.
+                                            <ul class="pt-1 pb-1">
+                                                <li>Client : SYN -> Server : Client akan mengirimkan SYN ke server</li>
+                                                <li>Server : SYN-ACK -> Client : Server merespon SYN Client dengan mengirimkan SYN-ACK ke Client</li>
+                                                <li>Client : ACK -> Server : Setelah menerima SYN-ACK dari server, client mengirim ACK ke Server.</li>
+                                            </ul>
+                                            Setelah melewati handshake tadi, baru kemudian koneksi terbentuk (established). TCP menggunakan proses jabat tangan yang sama untuk mengakhiri koneksi yang dibuat. Hal ini menjamin dua host yang sedang terkoneksi tersebut telah menyelesaikan proses transmisi data dan semua data yang ditransmisikan telah diterima dengan baik
+                                        </li>
+                                        <li class="pt-2">
+                                            Reliable Transmission <br>
+                                            Data yang dikirimkan ke sebuah koneksi TCP akan diurutkan dengan sebuah nomor urut yang unik disetiap byte data dengan tujuan agar data dapat disusun kembali setelah diterima. Pada saat transmisi, bisa jadi data dipecah/difragmentasi, hilang, atau tiba di device tujuan tidak lagi urut. Pada saat data diterima, paket data yang duplikat akan diabaikan dan paket yang datang tidak sesuai dengan urutannya akan diurutkan agar dapat disusun kembali.
+                                        </li>
+                                        <li class="pt-2">
+                                            Error Detection <br>
+                                            Jika terjadi error, misalnya ada paket data yang hilang pada saat proses transmisi, bisa dilakukan pengiriman ulang data yang hilang. Untuk menjamin integritas setiap segmen TCP, TCP mengimplementasikan penghitungan TCP Checksum.
+                                        </li>
+                                        <li class="pt-2">
+                                            Flow Control <br>
+                                            Flow Control akan menjadi sangat penting ketika bekerja di lingkungan dimana device satu dengan device yang lain memiliki kecepatan komunikasi jaringan yang beragam. Sebagai contoh, ketika PC mengirimkan data ke smartphone. kemampuan PC dengan smartphone tentu berbeda. Smartphone lebih lambat dalam memproses data yang diterima daripada PC, maka TCP akan mengatur aliran data agar smartphone tidak kewalahan.
+                                        </li>
+                                        <li class="pt-2">
+                                            Segment Size Control <br>
+                                            MSS (maximum segment size) adalah infomasi ukuran data terbesar yang dapat ditransmisikan oleh TCP dalam bentuk segment tunggal. Informasi MMS ini dalam format Bytes. Untuk performa terbaik, MSS bisa ditetapkan dengan ukuran yang cukup kecil untuk menghindari fragmentasi IP. Fragmentasi IP dapat menyebabkan hilangnya paket dan retransmisi yang berlebihan.
+                                        </li>
+                                        <li class="pt-2">
+                                            Congestion Control <br>
+                                            Prisip kerja TCP terkhir yang cukup penting adalah Congestion Control. TCP menggunakan beberapa mekanisme untuk mencegah terjadinya congestion pada network. mekanisme yang dilakukan salah satunya adalah mengatur aliran data yang masuk ke dalam network. 
+                                        </li>
+                                    </ol>
+                                    
+                                </div> 
+                            </div>
+                        </div>
+                        <!-- =====END PRINSIP KERJA TCP======   -->
+                        
+
+                        <div class="card mb-2">
+                            <div class="card-header header-card-content" id="header3">
+                                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse3"><h5><u>Struktur segmen TCP</u></h5></button>
+                            </div>
+                            <div id="collapse3" class="collapse size-img" aria-labelledby="header3" data-parent="#bagian1" >
+                                <div class="card-body">
+                                    <h5>Struktur segmen TCP dan fungsi masing-masing field</h5>
+                                    <img src="src/tugas-5/tcp-segmen.svg" alt="Segmen TCP" class="mx-auto d-block mb-1 mt-3" >
+                                    <p class="text-muted text-italic text-center">
+                                        Gambar TCP Header.
+                                    </p>
+                                    <p>Sebuah segmen TCP terdiri atas sebuah header dan segmen data (payload), yang dienkapsulasi dengan menggunakan header IP dari protokol IP. Segmen-segmen TCP akan dikirimkan sebagai datagram-datagram IP (datagram merupakan satuan protocol data unit pada lapisan internetwork).  Datagram IP tersebut akan dienkapsulasi lagi dengan menggunakan header protokol network interface menjadi frame lapisan Network Interface. TCP header menampung 10 field penting dan sebuah ekstensi field pilihan. Dan segmen data menempel pada header dan berisi data yang diminta oleh receiver. </p>
+                                    <span>Source Port</span>
+                                    <ul>
+                                        <li>Ukuran : 2 byte (16 bit)</li>
+                                        <li>Fungsi : Mengindikasikan sumber protokol lapisan aplikasi yang mengirimkan segmen TCP yang bersangkutan. Gabungan antara field Source IP Address dalam header IP dan field Source Port dalam field header TCP disebut juga sebagai socket sumber, yang berarti sebuah alamat global dari mana segmen dikirimkan. Lihat juga Port TCP.</li>
+                                    </ul>
+                                    
+                                    <span>Destination Port</span>
+                                    <ul>
+                                        <li>Ukuran : 2 byte (16 bit)</li>
+                                        <li>Fungsi : Mengindikasikan tujuan protokol lapisan aplikasi yang menerima segmen TCP yang bersangkutan. Gabungan antara field Destination IP Address dalam header IP dan field Destination Port dalam field header TCP disebut juga sebagai socket tujuan, yang berarti sebuah alamat global ke mana segmen akan dikirimkan.</li>
+                                    </ul>
+                                    
+                                    <span>Sequence Number</span>
+                                    <ul>
+                                        <li>Ukuran : 4 byte (32 bit)</li>
+                                        <li>Fungsi : Mengindikasikan nomor urut dari oktet pertama dari data di dalam sebuah segmen TCP yang hendak dikirimkan. Field ini harus selalu diset, meskipun tidak ada data (payload) dalam segmen. Ketika memulai sebuah sesi koneksi TCP, segmen dengan flag SYN (Synchronization) diset ke nilai 1, field ini akan berisi nilai Initial Sequence Number (ISN). Hal ini berarti, oktet pertama dalam aliran byte (byte stream) dalam koneksi adalah ISN+1.</li>
+                                    </ul>
+                                    
+                                    <span>Acknowledgment Number</span>
+                                    <ul>
+                                        <li>Ukuran : 4 byte (32 bit)</li>
+                                        <li>Fungsi : Mengindikasikan nomor urut dari oktet selanjutnya dalam aliran byte yang diharapkan oleh untuk diterima oleh pengirim dari si penerima pada pengiriman selanjutnya. Acknowledgment number sangat dipentingkan bagi segmen-segmen TCP dengan flag ACK diset ke nilai 1.</li>
+                                    </ul>
+                                    
+                                    <span>Data Offset</span>
+                                    <ul>
+                                        <li>Ukuran : 4 bit</li>
+                                        <li>Fungsi : Mengindikasikan di mana data dalam segmen TCP dimulai. Field ini juga dapat berarti ukuran dari header TCP. Seperti halnya field Header Length dalam header IP, field ini merupakan angka dari word 32-bit dalam header TCP. Untuk sebuah segmen TCP terkecil (di mana tidak ada opsi TCP tambahan), field ini diatur ke nilai 0x5, yang berarti data dalam segmen TCP dimulai dari oktet ke 20 dilihat dari permulaan segmen TCP. Jika field Data Offset diset ke nilai maksimumnya (24=16) yakni 15, header TCP dengan ukuran terbesar dapat memiliki panjang hingga 60 byte.</li>
+                                    </ul>
+                                    
+                                    <span>Reserved</span>
+                                    <ul>
+                                        <li>Ukuran : 6 bit</li>
+                                        <li>Fungsi : Direservasikan untuk digunakan pada masa depan. Pengirim segmen TCP akan mengeset bit-bit ini ke dalam nilai 0.</li>
+                                    </ul>
+                                    
+                                    <span>Flags</span>
+                                    <ul>
+                                        <li>Ukuran : 6 bit</li>
+                                        <li>
+                                            Fungsi : Sebagai penanda fragmentasi yang mengindikasikan flag-flag TCP yang memang ada enam jumlahnya, yang terdiri atas: URG (Urgent), ACK (Acknowledgment), PSH (Push), RST (Reset), SYN (Synchronize), dan FIN (Finish).
+                                            <ol>
+                                                <li>
+                                                    URG : Mengindikasikan bahwa beberapa bagian dari segmen TCP mengandung data yang sangat penting, dan field Urgent Pointer dalam header TCP harus digunakan untuk menentukan lokasi di mana data penting tersebut berada dalam segmen.
+                                                </li>
+                                                <li>
+                                                    ACK : Mengindikasikan field Acknowledgment mengandung oktet selanjutnya yang diharapkan dalam koneksi. Flag ini selalu diset, kecuali pada segmen pertama pada pembuatan sesi koneksi TCP.
+                                                </li>
+                                                <li>
+                                                    PSH :Mengindikasikan bahwa isi dari TCP Receive buffer harus diserahkan kepada protokol lapisan aplikasi. Data dalam receive buffer harus berisi sebuah blok data yang berurutan (kontigu), dilihat dari ujung paling kiri dari buffer. Dengan kata lain, sebuah segmen yang memiliki flag PSH diset ke nilai 1, tidak bolah ada satu byte pun data yang hilang dari aliran byte segmen tersebut; data tidak dapat diberikan kepada protokol lapisan aplikasi hingga segmen yang hilang tersebut datang. Normalnya, TCP Receive buffer akan dikosongkan (dengan kata lain, isi dari buffer akan diteruskan kepada protokol lapisan aplikasi) ketika buffer tersebut berisi data yang kontigu atau ketika dalam "proses perawatan". Flag PSH ini dapat mengubah hal seperti itu, dan membuat akan TCP segera mengosongkan TCP Receive buffer. Flag PSH umumnya digunakan dalam protokol lapisan aplikasi yang bersifat interaktif, seperti halnya Telnet, karena setiap penekanan tombol dalam sesi terminal virtual akan dikirimkan dengan sebuah flag PSH diset ke nilai 1. Contoh dari penggunaan lainnya dari flag ini adalah pada segmen terakhir dari berkas yang ditransfer dengan menggunakan protokol FTP. Segmen yang dikirimkan dengan flag PSH aktif tidak harus segera di-acknowledge oleh penerima.
+                                                </li>
+                                                <li>
+                                                    RST : Mengindikasikan bahwa koneksi yang dibuat akan digagalkan. Untuk sebuah koneksi TCP yang sedang berjalan (aktif), sebuah segmen dengan flag RST diset ke nilai 1 akan dikirimkan sebagai respons terhadap sebuah segmen TCP yang diterima yang ternyata segmen tersebut bukan yang diminta, sehingga koneksi pun menjadi gagal. Pengiriman segmen dengan flag RST diset ke nilai 1 untuk sebuah koneksi aktif akan menutup koneksi secara paksa, sehingga data yang disimpan dalam buffer akan dibuang (dihilangkan). Untuk sebuah koneksi TCP yang sedang dibuat, segmen dengan flag RST aktif akan dikirimkan sebagai respons terhadap request pembuatan koneksi untuk mencegah percobaan pembuatan koneksi.
+                                                </li>
+                                                <li>
+                                                    SYN : Mengindikasikan bahwa segmen TCP yang bersangkutan mengandung Initial Sequence Number (ISN). Selama proses pembuatan sesi koneksi TCP, TCP akan mengirimkan sebuah segmen dengan flag SYN diset ke nilai 1. Setiap host TCP lainnya akan memberikan jawaban (acknowledgment) dari segmen dengan flag SYN tersebut dengan menganggap bahwa segmen tersebut merupakan sekumpulan byte dari data. Field Acknowledgment Number dari sebuah segmen SYN diatur ke nilai ISN + 1.
+                                                </li>
+                                                <li>
+                                                    FIN : Menandakan bahwa pengirim segmen TCP telah selesai dalam mengirimkan data dalam sebuah koneksi TCP. Ketika sebuah koneksi TCP akhirnya dihentikan (akibat sudah tidak ada data yang dikirimkan lagi), setiap host TCP akan mengirimkan sebuah segmen TCP dengan flag FIN diset ke nilai 1. Sebuah host TCP tidak akan mengirimkan segmen dengan flag FIN hingga semua data yang dikirimkannya telah diterima dengan baik (menerima paket acknowledgment) oleh penerima. Setiap host akan menganggap sebuah segmen TCP dengan flag FIN sebagai sekumpulan byte dari data. Ketika dua host TCP telah mengirimkan segmen TCP dengan flag FIN dan menerima acknowledgment dari segmen tersebut, maka koneksi TCP pun akan dihentikan.
+                                                </li>
+                                            </ol>
+                                        </li>
+                                    </ul>
+                                    
+                                    <span>Window</span>
+                                    <ul>
+                                        <li>Ukuran : 2 byte (16 bit)</li>
+                                        <li>Fungsi : Mengindikasikan jumlah byte yang tersedia yang dimiliki oleh buffer host penerima segmen yang bersangkutan. Buffer ini disebut sebagai Receive Buffer, digunakan untuk menyimpan byte stream yang datang. Dengan mengimbuhkan ukuran window ke setiap segmen, penerima segmen TCP memberitahukan kepada pengirim segmen berapa banyak data yang dapat dikirimkan dan disangga dengan sukses. Hal ini dilakukan agar si pengirim segmen tidak mengirimkan data lebih banyak dibandingkan ukuran Receive Buffer. Jika tidak ada tempat lagi di dalam Receive buffer, nilai dari field ini adalah 0. Dengan nilai 0, maka si pengirim tidak akan dapat mengirimkan segmen lagi ke penerima hingga nilai field ini berubah (bukan 0). Tujuan hal ini adalah untuk mengatur lalu lintas data atau flow control.</li>
+                                    </ul>
+                                    
+                                    <span>Checksum</span>
+                                    <ul>
+                                        <li>Ukuran : 2 byte (16 bit)</li>
+                                        <li>Fungsi : Mampu melakukan pengecekan integritas segmen TCP (header-nya dan payload-nya). Nilai field Checksum akan diatur ke nilai 0 selama proses kalkulasi checksum.</li>
+                                    </ul>
+                                    
+                                    <span>Urgent Pointer</span>
+                                    <ul>
+                                        <li>Ukuran : 2 byte (16 bit)</li>
+                                        <li>Fungsi : Menandakan lokasi data yang dianggap "urgent" dalam segmen.</li>
+                                    </ul>
+                                    
+                                    <span>Options</span>
+                                    <ul>
+                                        <li>Ukuran : 4 byte (32 bit)</li>
+                                        <li>Fungsi : Berfungsi sebagai penampung beberapa opsi tambahan TCP. Setiap opsi TCP akan memakan ruangan 32 bit, sehingga ukuran header TCP dapat diindikasikan dengan menggunakan field Data offset.</li>
+                                    </ul>
+
+                    
+                                </div> 
+                            </div>
+                        </div>
+                        <!-- =====END Struktur segmen TCP dan fungsi masing-masing field======   -->
+
+                        <div class="card mb-2">
+                            <div class="card-header header-card-content" id="header4">
+                                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse4"><h5><u>Proses Flow Control TCP</u></h5></button>
+                            </div>
+                            <div id="collapse4" class="collapse" aria-labelledby="header4" data-parent="#bagian1" >
+                                <div class="card-body">
+                                    <h5>Proses Flow Control TCP</h5>
+                                    <p>
+                                        Flow control pada TCP bertugas untuk mengeliminasi segala kemungkinan yang dilakukan oleh pengirim dalam membuat buffer penerima penuh ketika mengirimkan data. Jadi, node penerima akan mengirimkan semacam feedback (umpan balik) kepada node pengirim untuk mengetahui kondisi penerima terkini. 
+                                    </p>
+                                    <div class="size-img mt-2 mb-3">
+                                        <img src="src/tugas-5/tcp-buffer.png" alt="TCP Buffer" class="mx-auto d-block mb-1 mt-1 img-thumbnail" >
+                                    </div>
+                                    <p>
+                                        Ketika pengiriman data melalui TCP, TCP akan membawa data ke buffer terlebih dahulu kemudian data akan diterima dalam buffer penerima. Ketika aplikasi (penerima) sudah siap, maka data akan dibaca dari buffer penerima. Flow control akan memastikan bahwa kita tidak mengirimkan segmen ketika buffer penerima telah penuh, karena penerima tidak akan bisa untuk menerima data itu dan justru akan membuang segmen tersebut. Suatu variable pada flow control yang disebut Receive window merupakan sebuah variable yang akan memberi tahu pengirim berapa banyak ruang kosong yang tersedia pada buffer penerima.
+                                    </p>
+                                    <div class="size-img mt-2 mb-3"">
+                                        <img src="src/tugas-5/rwnd.png" alt="Receive Window" class="mx-auto d-block mb-1 mt-1 img-thumbnail" >
+                                    </div>
+                                    <p>
+                                        Contoh kasus : Host A ingin mengirimkan sebuah file besar (ukuran) kepada host B melalui protocol TCP. Host B akan menyediakan buffer penerima untuk koneksi ini. Ukuran Buffer penerima disebut dengan RcvBuffer. Penjelasan dari beberapa variable.
+                                        <ul>
+                                            <li>LastByteRead : Angka pada byte terakhir pada data stream yang dibaca oleh buffer pada proses aplikasi di B.</li>
+                                            <li>LastByteRcvd : Angka pada byte terakhir pada data stream yang sampai dari jaringan dan tersimpa dalam buffer penerima B.</li>
+                                        </ul>
+                                        Karena TCP tidak diperbolehkan untuk membuat penuh Alokasi buffer (pada buffer penerima), sehingga harus diperhatikan bahwa,
+                                    </p>
+                                    <img src="src/tugas-5/rumus-1.svg" alt="rumus-1" class="mx-auto d-block mb-4 mt-1 img-thumbnail" >
+                                    <p>
+                                        Receive window yang dinyatakan dengan rwnd akan menghitung banyaknya ruang yang kosong pada buffer (penerima) :
+                                    </p>
+                                    <img src="src/tugas-5/rumus-2.svg" alt="rumus-2" class="mx-auto d-block mb-4 mt-1 img-thumbnail" >
+                                    <p>
+                                        Nilai rwnd bersifat dinamis karena besarnya ruang yang tersisa akan berubah sepanjang waktu. Kemudian host B akan memberitahu host A berapa banyak ruang yang kosong pada buffer dengan menyimpan nilai rwnd terkini didalam field receive window pada setiap segment yang dikirimkan ke A. Pada host A terdapat 2 variabel yang harus tetap di awasi yaitu LastByteSent dan LastByteAcked. Yang membedakan dari 2 variabel ini adalah jumlah dari unacknowledged data yang A kirimkan pada koneksi ini. Dengan selalu mengawasi jumlah data unacknowledged daripada nilai dari rwnd, host A akan memastikan bahwa tidak ada buffer penerima yang penuh pada host B. Host A memastikan melalui kalkulasi ini :
+                                    </p>
+                                    <img src="src/tugas-5/rumus-3.svg" alt="rumus-3" class="mx-auto d-block mb-4 mt-1 img-thumbnail" >
+                                    <p>
+                                        Satu kesalahan kecil dalam skema ini adalah anggap bahwa pada buffer penerima host B penuh sehingga nilai rwnd = 0. Setelah host B memberitahu bahwa rwnd-nya 0 (nol) kepada host A (anggap juga bahwa host B tidak memiliki sesuatu yang perlu dikirim ke host A). Yang terjadi ialah pada host B aplikasi prosesnya akan mengosongkan buffer dan TCP tidak mengirimkan segmen baru dengan nilai terbaru dari rwnd (bukan nol) ke host A (karena TCP akan mengirimkan segmen bilamana terdapat data atau acknowledged yang harus dikirim). Sehingga, host A tidak pernah mengetahui bahwa terdapat ruang kosong pada buffer penerima host B dan tidak akan mengirimkan data lagi. Sehingga untuk memperbaiki ini, TCP membutuhkan spesifikasi pada host A untuk tetap mengirimkan segmen dengan data 1 byte (saja) ketika rwnd pada host B bernilai 0 (nol).
+                                    </p>
+                                </div> 
+                            </div>
+                        </div>
+                        <!-- =====END Proses Flow Control TCP======   -->
+
+                        <div class="card mb-2">
+                            <div class="card-header header-card-content" id="header5">
+                                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse5"><h5><u>Bagaimana TCP mengatasi Kongesti</u></h5></button>
+                            </div>
+                            <div id="collapse5" class="collapse congestion" aria-labelledby="header5" data-parent="#bagian1" >
+                                <div class="card-body">
+                                    <h5>Bagaimana TCP mengatasi Kongesti</h5>
+                                    <p>
+                                        TCP menyediakan pengiriman paket reliable, sehingga aliran data yang dibaca TCP receiver tidak rusak, tanpa duplikasi, dan berurutan. Algoritma TCP Congestion Control adalah faktor kunci yang memainkan peran penting dalam performa dan sejumlah data yang dikirimkan dalam jaringan. Congestion terjadi ketika sejumlah paket yang diterima lebih dari kapasitas receive. Mekanisme congestion control diklasifikasikan menjadi 4 tahapan utama, yaitu Slow start, Congestion Avoidance, Fast retransmit dan Fast recovery.
+                                    </p>
+                                    <ul>
+                                        <li>
+                                            <span>Slow Start</span> <br>
+                                            Tahap awal implementasi TCP adalah fase slow start, dimana algoritma slow start  digunakan oleh TCP sender untuk menyesuaikan laju aliran data ke receiver dimana periode slow start baru dimulai dengan setiap ACK yang diterima dari TCP receiver. Ini berarti tingkat transmisi dari TCP sender sepenuhnya tergantung pada ACK yang dikembalikan oleh TCP receiver. Umumnya, setelah re-transmission time out, tahap slow start diluncurkan di lokasi pengiriman koneksi TCP, dan setelahnya, ini akan secara signifikan mempengaruhi kinerja koneksi secara keseluruhan. Secara langsung tujuan mekanisme slow start adalah membantu sender memperoleh bandwith pada jalur jaringan. Dengan cara ini, bottleneck koneksi dengan aliran besar dari segmen dapat dihindari.
+                                            <img src="src/tugas-5/slow start.png" alt="Slow start" class="mx-auto d-block mb-4 mt-3 img-thumbnail" >
+                                            <p class="text-muted text-italic text-center">
+                                                Gambar 1. Peningkatan TCP Slow Start dengan RTT
+                                            </p>
+                                            <p>Dengan mengacu pada Gambar 1, slow start dimulai dengan satu segmen untuk cwnd (cwnd= 1 segmen), dan setiap ack diterima secara berturut-turut, cwnd meningkat sebesar satu (cwnd baru=cwnd sebelumnya +1). Pertumbuhan cwnd secara eksponensial dengan masing-masing RTT akan menduplikasi ukuran cwnd (cwnd baru = cwnd sebelumnya X 2), hingga cwnd mencapai titik congestion di link. TCP slow start diterapkan melalui dua variabel, congestion window (cwnd) dan slow start threshold (ssthresh). Variabel ssthresh adalah nilai threshold dimana TCP meninggalkan periode slow start. Jika pada satu titik waktu ketika cwnd naik diluar ssthresh, periode TCP pada titik waktu tersebut keluar dari fase slow start. Dengan lebih interaksi RTT, cwnd akhirnya akan melampaui ssthresh, dan session akan keluar dari periode slow start. Pada titik waktu ini, TCP source masuk ke tahap berikutnya yaitu fase congestion avoidance. (Cheng, 2005). Keluarnya fase slow start menunjukkan bahwa koneksi TCP sudah dalam keadaan stabil dimana congestion window hati-hati meningkatkan besar jalur jaringan.</p>
+                                        </li>
+
+                                        <li>
+                                            <span>Fase Congestion Avoidance</span> <br>
+                                            Setelah periode tertentu tingkat transmisi TCP melebihi kapasitas link jaringan dan dengan demikian mengakibatkan TCP loss. TCP akan segera mendeteksi packet loss dan mengurangi ukuran congestion window hampir setengah dari nilai sebenarnya (Vallamsunda, 2007). Mekanisme congestion avoidance diimplementasikan ketika ukuran congestion window lebih besar daripada threshold slow start. Dalam congestion avoidance, congestion window diperbesar satu segmen setiap RTT, dan kemudian mengurangi setengah dari sebelumnya ketika TCP sender merasakan congestion (packet loss).
+                                            <img src="src/tugas-5/congestion avoidance.png" alt="Fase congestion avoidance" class="mx-auto d-block mb-4 mt-3 img-thumbnail" >
+                                            <p class="text-muted text-italic text-center">
+                                                Gambar 2. Ilustrasi Congestion Avoidance
+                                            </p>
+                                            Gambar 2 adalah diagram aktivitas mekanisme TCP congestion control. Gambar tersebut menggambarkan bahwa TCP sender menggandakan ukuran congestion untuk setiap RTT hingga ukuran window size lebih besar dari ssthresh. Dari point itu, congestion window meningkat satu segmen setiap RTT.
+                                        </li>
+                                        
+                                        <li>
+                                            <span>Fase Fast Recovery dan Fast Transmit</span> <br>
+                                            Fast retransmit dan fast recovery menyediakan mekanisme untuk mempercepat retrieval (pengambilan) koneksi. Mekanisme ini adalah metode recovery yang digunakan oleh TCP untuk menghindari waiting time pengiriman ulang time out setiap segmen loss (Olse 2003). Mekanisme fast recovery menyesuaikan pengiriman segmen baru hingga non duplicate ACK diterima oleh pengirim. Dapat dikatakan setelah menerima paket (urutan nomor 1), receiver mengirimkan acknowledgement dengan menambahkan nilai 1 ke urutan nomor (nomor urut = 1+1=2), yang berarti bahwa receiver menerima paket nomor 1 dan nomor paket 2 dari sender. Dengan asumsi tiga paket berikutnya telah hilang, receiver menerima nomer paket 5. Setelah menerima nomor paket 5, receiver mengirimkan sebuah Acknowledgement dengan urutan nomor 2 dan 6. Ketika receiver menerima paket nomor 6, receiver akan mengirimkan Acknowledgement dengan urutan nomor 2 dan 7. Dengan cara ini, sender menerima lebih dari satu Acknowledgement dengan sama nomor urutan 2, yang disebut duplikat Acknowledgement. Dengan proses ini, clocking Acknowledgement dapat dijaga, dan ketika non duplicate ACK sampai, fast recovery telah selesai, dan cwnd dikosongkan. Mekanisme fast retransmit untuk TCP digambarkan pada Gambar 3.
+                                            <img src="src/tugas-5/Fast Transmit.png" alt="Fase fast recovery dan fast transmit" class="mx-auto d-block mb-4 mt-3 img-thumbnail" >
+                                            <p class="text-muted text-italic text-center">
+                                                Gambar 3. Mekanisme Fast Transmit
+                                            </p>
+                                        </li>
+                                    </ul>
+                                </div> 
+                            </div>
+                        </div>
+                        <!-- ===== END Bagaimana TCP mengatasi Kongesti======   -->
+
+                    </div>
+                    <!-- ===== END DIV Acordion ===== -->
+
+                </div>
+
+            </div>
+        </div>
+
+ 
+        <div class="container container-model refrensi mb-5 mt-3">
+            <p class="text-center">
+                <a class="btn" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                    Refrensi
+                </a>
+             </p>
+            <div class="collapse" id="collapseExample">
+                <div class="card card-body">
+                    <ul>
+                        <li><a href="https://lms.onnocenter.or.id/wiki/index.php/TCP" target="_blank">https://lms.onnocenter.or.id/wiki/index.php/TCP</a></li>
+                        <li><a href="https://lms.onnocenter.or.id/wiki/index.php/TCP/IP:_Transport_Layer" target="_blank">https://lms.onnocenter.or.id/wiki/index.php/TCP/IP:_Transport_Layer</a></li>
+                        <li><a href="https://media.neliti.com/media/publications/142557-ID-none.pdf" target="_blank">https://media.neliti.com/media/publications/142557-ID-none.pdf</a></li>
+                        <li><a href="https://www.brianstorti.com/tcp-flow-control/" target="_blank">https://www.brianstorti.com/tcp-flow-control/</a></li>
+                        <li><a href="https://sookocheff.com/post/networking/how-does-tcp-work/" target="_blank">https://sookocheff.com/post/networking/how-does-tcp-work/</a></li>
+                        <li><a href="http://j-ptiik.ub.ac.id/index.php/j-ptiik/article/download/1077/403" target="_blank">https://www.youtube.com/watch?v=AtVWnyDDaDI</a></li>
+                        <li><a href="https://eclass.teicrete.gr/modules/document/file.php/TP326/%CE%98%CE%B5%CF%89%CF%81%CE%AF%CE%B1%20(Lectures)/Computer_Networking_A_Top-Down_Approach.pdf" target="_blank">Kurose, James F., Ross, Keith W. 2010.<span class="text-italic"> Computer Networkin : A Top-Down Approach (Sixth Edition).</span> USA: Pearson Education inc.</a></li>                
+                    </ul>
+                </div>
+              </div>
+
+        </div>
+
+    </section>
+
+    <footer>
+        <div class="container mt-3">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="src/tugas-5/Me.jpg" alt="Foto-Artia" class="mx-auto d-block">
+                </div>
+                <div class="col-md-6 bio">
+                    <p>Artia Audrian Aryatama</p>
+                    <p>D121191<span class="font-weight-bold">042</span></p>
+                    <p>Teknik Informatika B 2019</p>
+                    <p>Universitas Hasanuddin.</p>
+                    <p>Gowa, Sulsel [Indonesia]</p>
+                    
+                </div>
+            </div>
+        </div>
+        <hr class="mt-4">
+        <p class="font-italic pt-1 text-center footer-text">© Artia Aryatama 2020 </p>
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script>
+        // $('body').scrollspy({ target: '#navbar-example' })
+        // $('[data-spy="scroll"]').each(function () {
+        //     var $spy = $(this).scrollspy('refresh')
+        // })
+        $(function() {
+            $("[data-toggle='popover']").popover()
+        })
+
+        // javascript:alert("Nah! ini Javascript")
+    </script>
+  </body>
+</html>

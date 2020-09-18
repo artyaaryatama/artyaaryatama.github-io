@@ -1,0 +1,226 @@
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/*----------------------------
+        Style Tugas 3
+--------------------------- */
+
+.navbar {
+    background-color: #dddcdcda;
+}
+.navbar .fa-github, .fa-instagram, .fa-envelope {
+    font-size: 20px;
+    padding-right: 15px;
+}
+.navbar .sosmed {
+    display: flex;
+    list-style: none;
+    margin-left: -25px;
+}
+.jumbotron {
+    background-color: #b5cbf5;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.jumbotron .jumbotron-image{
+    max-width: 80%;
+    height: auto;
+}
+.jumbotron h1 {
+    font-weight: 650;
+}
+.jumbotron span {
+    color: #767a8f;
+}
+.jumbotron .para {
+    font-size: 10px;
+    margin-left: 20px;
+    color: rgba(0, 0, 0, 0.712);
+}
+.jumbotron button {
+    background-color: #fff;
+    color: #8d8a8a;
+}
+.main-content .image-model{
+    height: 350px;
+}
+.main-content .text-para p {
+    text-indent: 0.5in;
+    text-align: justify;
+}
+.main-content .text-para h3 {
+    color:#b5cbf5;
+    text-decoration: underline;
+    padding-bottom: 2px;
+}
+.main-content .container-model {
+    margin-right: 15vh;
+    margin-left: 15vh;
+}
+.main-content .btn-link {
+    text-decoration: none;
+    color: #8b7050;
+    font-size: 25px;
+    font-weight: 300;
+}
+.main-content .header-card-content {
+    padding: -20px;
+}
+.content-child hr {
+    border-color: #767a8f;
+    border-width: 1px;   
+}
+.content-child .container-model-ceksum {
+    margin-right: 15vh;
+    margin-left: 15vh;
+}
+.card-ceksum {
+    width: auto;
+    margin-bottom: 20px;
+}
+.card-ceksum h5 {
+    font-size: 15px;
+    font-weight: 500;
+}
+.card-ceksum .img-responsive {
+    width: 65%;
+    margin-top: -26px;
+}
+.card-ceksum .img-responsive-ceksum3 {
+    width: 63%;
+    margin-top: -27px;
+}
+.card-ceksum .img-responsive-ceksum5 {
+    width: 63%;
+    margin-top: -19px;
+}
+.refrensi .btn {
+    background-color: #8d8a8a;
+    color: #fff;
+}
+footer {
+    padding: 30px 0;
+    position: relative;
+    background-color: #e7e4e4;
+}
+footer img {
+    width: 12rem;
+    border-radius: 50%;
+}
+footer .footer-text {
+    font-weight: 800;
+    letter-spacing: 3px;
+}
+footer .bio {
+    text-align: justify;
+    letter-spacing: 2px;
+    align-items: center;
+    justify-content: center;
+}
+footer hr {
+    border-color: #000;
+    border-width: 2px;
+}
+
+@media screen and (max-width: 678px) {
+    .navbar .sosmed {
+        margin-left: -38px;
+    }
+    .navbar .fa-github, .fa-instagram, .fa-envelope {
+        font-size: 20px;
+    }
+    .jumbotron .jumbotron-image{
+        max-width: 40%;
+        height: auto;
+        align-items: center;
+        justify-content: center;
+    }
+    .jumbotron h1 {
+        font-size: 30px;
+        margin-top: 15px;
+        text-align: center;
+    }
+    .jumbotron .jumbo-text  {
+        text-align: center;
+        font-size: 14px;
+        margin-top: 10px;
+    }
+    .main-content .container-model {
+        margin-right: 1vh;
+        margin-left: 1vh;
+    }
+    .content-child .container-model-ceksum {
+        margin-right: 1vh;
+        margin-left: 1vh;
+    }
+    .content-child .bit {
+        font-size: 15px;
+    }
+    footer img {
+        width: 12rem;
+        border-radius: 50%;
+        padding-bottom: 10vh;
+    }
+    footer .bio {
+        text-align: center;
+    }
+}
+
+/*----------------------------
+        Style Tugas 5
+--------------------------- */
+#tugas-5 .mekanisme img {
+    height: 350px;
+}
+#tugas-5 .mekanisme .text-muted {
+    font-size: 9px;
+}
+#tugas-5 .container-model {
+    margin-right: 15vh;
+    margin-left: 15vh;
+}
+#tugas-5 .btn-link {
+    text-decoration: none;
+    color: #8b7050;
+    font-size: 25px;
+    font-weight: 300;
+}
+#tugas-5 .content-child .container-model span {
+    font-size: 18px;
+    font-weight: 600;
+}
+#tugas-5 .content-child .container-model .text-muted {
+    font-size: 9px;
+}
+#tugas-5 .content-child .container-model .congestion img {
+    height: 350px;
+}
+#tugas-5 .text-para p {
+    text-indent: 0.5in;
+    text-align: justify;
+}
+#tugas-5 .content-child .container-model .size-img img {
+    height: 330px;
+}
+
+@media screen and (max-width: 678px) {
+    #tugas-5 .container-model {
+        margin-right: 1vh;
+        margin-left: 1vh;
+    }
+    #tugas-5 .mekanisme img {
+        heigh: 65%;
+    }
+    #tugas-5 .content-child .container-model .congestion img {
+        width: 65%;
+        height: auto;
+    }
+    #tugas-5 .content-child .container-model .size-img img {
+        width: 65%;
+        height: auto;
+    }
+}

@@ -1,0 +1,456 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="stylesheet.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/8706c481a3.js" crossorigin="anonymous"></script>
+
+    <title>Tugas Pertemuan 3 Jaringan Komputer</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-md navbar-light ">
+        <div class="container">
+            <a class="navbar-brand active">
+                <img src="src/tugas-3/binary-code.svg" width="50" class="mr-3" height="50" alt="binary-code icon" loading="lazy">
+              </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Tugas Lain<span class="sr-only">(current)</span>
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="tugas-3.html" target="_blank">Pertemuan 3</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="tugas-5.html">Pertemuan 5</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">-</a>
+                  </div>
+                </li>
+                <ul class="sosmed">
+                    <li> <a class="nav-link" href="https://github.com/artyaaryatama"target="_blank"><i class="fab fa-github""></i></a></li>
+                    <li> <a  class="nav-link"  href="https://www.instagram.com/artiaudr/" target="_blank"><i class="fab fa-instagram""></i></a> </li>
+                    <li> <a href="mailto:artyaaryatama21@gmail.com" target="_blank" class="nav-link"><i class="far fa-envelope" ></i></a> </li>
+                </ul>
+              </ul>
+            </div>
+        </div>
+    </nav>
+      <!-- === END OF NAVBAR === -->
+
+    <section class="section">
+        <div class="intro">
+            <div class="jumbotron">
+                <div class="container mt-3 mb-5">
+                    <div class="row jumbo-margin">
+                        <div class="col-md-3 text-center">
+                            <img src="src/tugas-3/algorithm.svg" alt="Data Picture by Flaticon" class="jumbotron-image">
+                        </div>
+                        <div class="col-md-9">
+                            <h1 class="display-4">JARINGAN <span>KOMPUTER</span></h1>
+                            <p class="lead jumbo-text">Tugas Pertemuan 3 Tentang Model Refrensi TCP/IP dan Transport Layer.</p>
+                            <button class="btn btn-sm" data-placement="right" data-trigger="focus" data-toggle="popover" title="Fungsi layer pada model refrence TCP/IP" data-content="Pertama, untuk memudahkan kita menemukan error dalam proses troubleshooting. Kedua, untuk memudahkan pembagian tugas pada komputer. Ketiga, untuk mengatur pemrosessan data agar komunikasi antar device lancar">Mengapa model refrence TCP/IP dibuat berlayer ?</button>
+                            <p class="para pt-1">**Klik button diatas untuk mengetahui alasannya</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main-content">
+            <div class="container">
+                <h2 class="text-center mb-3">MODEL REFRENSI TCP/IP</h2>
+                <div class="text-center">
+                    <img src="src/tugas-3/model-refrence-TCP.svg"  alt="Model Refrence TCP/IP" class="image-model">
+                </div>
+                <div class="text-para container-model mt-4">
+                    <h3>Application Layer</h3>
+                    <p>
+                        Application Layer, sebagai penyedia layanan aplikasi yang berjalan di komputer dan sebagai high-level protocol yang melakukan proses representasi dan encoding. Protokol-protokol yang beroperasi pada Application Layer : HTTP, FTP, POP3, SMTP, dll. 
+                        <ul>
+                            <li>HTTP  (Hypertext Transfer Protocol) digunakan oleh World Wide Web (WWW) untuk mengatur komunikasi antara web browser dengan server.</li>
+                            <li>SMTP (Simple Mail Transfer Protokol) digunakan untuk mengirimkan email dari local email ke server, sebelum akhirnya dikirimkan ke server email penerima. </li>
+                            <li>FTP (File Tranfer Protocol) digunakan untuk pentransferan berkas (file) komputer antar mesin-mesin dalam sebuah internetwork. </li>
+                            <li>Dsb.</li>
+                        </ul>
+                    </p>
+
+                    <h3>Transport Layer</h3>
+                    <p>
+                        Transport Layer, berperan untuk membangun koneksi antar host, antar komputer pengirim dengan komputer penerima, antara client dan server. 
+                        <ul>
+                            <li>Memecah data ke dalam paket – paket data</li>
+                            <li>Mentransmisikan data dari session layer menuju network layer, maupun sebaliknya.</li>
+                            <li>Membuat penomoran pada paket – paket data, sehingga nantinya dapat disusun kembali dengan mudah</li>
+                            <li>Melakukan proses transmisi ulang pada paket data yang hilang</li>
+                        </ul>
+
+                        <!-- ==== protokol TCP==== -->
+                        Beberapa protocol yang digunakan dalam Transport Layer : <span class="pl-3 disabled" style="font-size: 12px;"> ( Klik nama protokol) </span>
+                        <div class="acordion transport-layer" id="bagian1">
+                            <!-- =======TCP======= -->
+                            <div class="card mb-2 mt-2">
+                                <div class="card-header header-card-content" id="header1">
+                                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse1"><h5><u>TCP/IP</u></h5></button>
+                                </div>
+                                <div id="collapse1" class="collapse" aria-labelledby="header1" data-parent="#bagian1">
+                                    <div class="card-body">
+                                        <h5>TCP (Transmission Control Protocol)</h5>
+                                        TCP merupakan suatu standar komunikasi yang digunakan untuk bertukar data antar komputer yang terhubung melalui jaringan internet. Pada Transport Layer  model Refrence TCP/IP protocol yang digunakan hanyalah TCP/IP saja.  
+                                        TCP bekerja dengan pengalamatan port sebagai berikut :
+                                        <ol class="pt-2">
+                                            <li>
+                                                Low Port (Standard Service Port) merupakan port yang nilainya dibawah 1024 atau yang masuk dalam kategori System/Well-Known Port. Port ini telah digunakan oleh service standart. Seperti port 80 (HTTP), 443 (HTTPS), 53 (DNS), 22 (SSH), 23 (Telnet), 110 (POP3), SMTP (25), dll.
+                                            </li>
+                                            <li>
+                                                High port (untuk transmisi lanjutan) merupakan port yang nilainya antara 1025-65536 atau yang masuk dalam kategori registered port dan dynamic/private port. Port ini untuk transmisi atau service yang bersifat custom/tidak standart. Misalnya kita membuat proxy server. 
+                                            </li>
+                                        </ol>
+                                        <!-- =====prinsip kerja TCP ===== -->
+                                        Prinsip Kerja TCP :
+                                        <ol class="pt-2">
+                                            <li>
+                                                Connection Oriented <br>
+                                                <img src="src/tugas-3/3-way-handshake.png" alt="3-way-handshake" class="mx-auto d-block mb-1 mt-1 img-thumbnail" > <br>
+                                                Proses pembuatan koneksi TCP disebut juga dengan "Three-way Handshake". Tujuan metode ini adalah agar dapat melakukan sinkronisasi terhadap nomor urut dan nomor acknowledgement yang dikirimkan oleh kedua pihak dan saling bertukar ukuran TCP Window.
+                                                <ul class="pt-1 pb-1">
+                                                    <li>Client : SYN -> Server : Client akan mengirimkan SYN ke server</li>
+                                                    <li>Server : SYN-ACK -> Client : Server merespon SYN Client dengan mengirimkan SYN-ACK ke Client</li>
+                                                    <li>Client : ACK -> Server : Setelah menerima SYN-ACK dari server, client mengirim ACK ke Server.</li>
+                                                </ul>
+                                                Setelah melewati handshake tadi, baru kemudian koneksi terbentuk (established). TCP menggunakan proses jabat tangan yang sama untuk mengakhiri koneksi yang dibuat. Hal ini menjamin dua host yang sedang terkoneksi tersebut telah menyelesaikan proses transmisi data dan semua data yang ditransmisikan telah diterima dengan baik
+                                            </li>
+                                            <li class="pt-2">
+                                                Reliable Transmission <br>
+                                                Data yang dikirimkan ke sebuah koneksi TCP akan diurutkan dengan sebuah nomor urut yang unik disetiap byte data dengan tujuan agar data dapat disusun kembali setelah diterima. Pada saat transmisi, bisa jadi data dipecah/difragmentasi, hilang, atau tiba di device tujuan tidak lagi urut. Pada saat data diterima, paket data yang duplikat akan diabaikan dan paket yang datang tidak sesuai dengan urutannya akan diurutkan agar dapat disusun kembali.
+                                            </li>
+                                            <li class="pt-2">
+                                                Error Detection <br>
+                                                Jika terjadi error, misalnya ada paket data yang hilang pada saat proses transmisi, bisa dilakukan pengiriman ulang data yang hilang. Untuk menjamin integritas setiap segmen TCP, TCP mengimplementasikan penghitungan TCP Checksum.
+                                            </li>
+                                            <li class="pt-2">
+                                                Flow Control <br>
+                                                Flow Control akan menjadi sangat penting ketika bekerja di lingkungan dimana device satu dengan device yang lain memiliki kecepatan komunikasi jaringan yang beragam. Sebagai contoh, ketika PC mengirimkan data ke smartphone. kemampuan PC dengan smartphone tentu berbeda. Smartphone lebih lambat dalam memproses data yang diterima daripada PC, maka TCP akan mengatur aliran data agar smartphone tidak kewalahan.
+                                            </li>
+                                            <li class="pt-2">
+                                                Segment Size Control <br>
+                                                MSS (maximum segment size) adalah infomasi ukuran data terbesar yang dapat ditransmisikan oleh TCP dalam bentuk segment tunggal. Informasi MMS ini dalam format Bytes. Untuk performa terbaik, MSS bisa ditetapkan dengan ukuran yang cukup kecil untuk menghindari fragmentasi IP. Fragmentasi IP dapat menyebabkan hilangnya paket dan retransmisi yang berlebihan.
+                                            </li>
+                                            <li class="pt-2">
+                                                Congestion Control <br>
+                                                Prisip kerja TCP terkhir yang cukup penting adalah Congestion Control. TCP menggunakan beberapa mekanisme untuk mencegah terjadinya congestion pada network. mekanisme yang dilakukan salah satunya adalah mengatur aliran data yang masuk ke dalam network. 
+                                            </li>
+                                        </ol> 
+                                        <!-- ==== END PRINSIP KERJA TCP ====-->
+                                    </div> 
+                                </div>
+                            </div>
+                            <!-- =====END TCP======   -->
+
+                            <!-- =======UDP======= -->
+                            <div class="card mb-2">
+                                <div class="card-header header-card-content" id="header2">
+                                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse2"><h5><U>UDP</U></h5></button>
+                                </div>
+                                <div id="collapse2" class="collapse" aria-labelledby="header2" data-parent="#bagian1" >
+                                    <div class="card-body">
+                                        <h5>UDP (User Diagram Protocol)</h5>
+                                        UDP merupakan salah jatu jenis protokol yang biasa digunakan utnuk transmisi sederhana dengan mekanisme protokol yang minimal.
+                                        <!-- ==== PRINSIP KERJA UDP ===== -->
+                                        Prinsip Kerja UDP :
+                                        <ol>
+                                            <li class="pt-2">
+                                                Connectionless <br>
+                                                Device yang satu bisa mengirimkan pesan/datagram ke device lainnya di jaringan, tanpa terlebih dahulu melakukan negosiasi (hand-shake).
+                                            </li>
+                                            <li class="pt-2">
+                                                Unreliable <br> 
+                                                Datagram yang dikirimkan pun tidak dijamin sampai ke tujuan. Paket data UDP akan dikirimkan sebagai datagram tanpa adanya nomor urut atau pesan acknowledgment. Tidak ada flow control ataupun mekanisme lain untuk menjaga keutuhan datagram (unreliable). Akan tetapi UDP melakukan mekanisme checksums untuk data integrity. <br>
+                                                UPD biasanya digunakan karena beberapa alasan berikut :
+                                                <ol class="pt-2" type="a">
+                                                    <li>
+                                                        Protokol yang "ringan" (lightweight) : Lebih hemat sumber daya memori dan prosesor, beberapa protokol lapisan aplikasi membutuhkan penggunaan protokol yang ringan yang dapat melakukan fungsi-fungsi spesifik dengan saling bertukar pesan. Contoh dari protokol yang ringan adalah fungsi query nama dalam protokol lapisan aplikasi Domain Name System.
+                                                    </li>
+                                                    <li class="pt-2"> 
+                                                        Transmisi broadcast : Untuk mengirimkan datagram, UDP tidak perlu membuat koneksi terlebih dahulu dengan sebuah host tertentu, dengan begitu UDP memungkinkan untuk membuat transmisi broadcast. Protokol TCP yang hanya dapat mengirimkan transmisi one-to-one, karena harus ada proses handshake terlebih dahulu antar device. Contoh transmisi broadcast salah satunya query nama dalam protokol NetBIOS Name Service.
+                                                    </li>
+                                                    <li class="pt-2">
+                                                        Streaming dan Game Online : Streaming dan game online membutuhkan transmisi yang real time. Jika ada paket yang hilang pada saat trasmisi kemudian harus menunggu paket pengganti, maka beban network akan berlebih, dan jeda menunggu akan membuat data tidak lagi real time.
+                                                    </li>
+                                                </ol>
+                                            </li>
+                                        </ol>
+                                        <!-- ===== END PRINSIP KERJA UDP ===== -->
+                                    </div> 
+                                </div>
+                            </div>
+                            <!-- =====END UDP======   -->
+                            
+                            <!-- =======PORT NUMBER======= -->
+                            <div class="card mb-2">
+                                <div class="card-header header-card-content" id="header3">
+                                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse3"><h5><u>Port Number</u></h5></button>
+                                </div>
+                                <div id="collapse3" class="collapse" aria-labelledby="header3" data-parent="#bagian1" >
+                                    <div class="card-body">
+                                        <h5>Port Number</h5>
+                                        Port Number adalah proses khusus atau konstruk perangkat lunak khusus aplikasi yang berfungsi sebagai titik akhir komunikasi, yang digunakan oleh protokol Transport Layer (OSI Layer ke 4) dari paket Protokol Internet, seperti User Diagram Protocol (UDP) dan Transmission Control Protocol (TCP). Nomor port adalah bilangan bulat unsigned 16-bit yang berkisar dari 0 hingga 65535.  <br>                                
+                                        Port dibagi menjadi tiga jenis :
+                                        <ol class="pt-2">
+                                            <li>
+                                                Well-known Port: yang pada awalnya berkisar antara 0 hingga 255 tetapi kemudian diperlebar untuk mendukung antara 0 hingga 1023. Port number yang termasuk ke dalam well-known port, selalu merepresentasikan layanan jaringan yang sama, dan ditetapkan oleh Internet Assigned Number Authority (IANA). Beberapa di antara port-port yang berada di dalam range Well-known port masih belum ditetapkan dan direservasikan untuk digunakan oleh layanan yang bakal ada pada masa depan. Well-known port didefinisikan dalam RFC 1060.
+                                            </li>
+                                            <li class="pt-2">
+                                                Registered Port: Port-port yang digunakan oleh vendor-vendor komputer atau jaringan yang berbeda untuk mendukung aplikasi dan sistem operasi yang mereka buat. Registered port juga diketahui dan didaftarkan oleh IANA tetapi tidak dialokasikan secara permanen, sehingga vendor lainnya dapat menggunakan port number yang sama. Range registered port berkisar dari 1024 hingga 49151 dan beberapa port di antaranya adalah Dynamically Assigned Port.
+                                            </li>
+                                            <li class="pt-2 pb-1">
+                                                Dynamically Assigned Port: merupakan port-port yang ditetapkan oleh sistem operasi atau aplikasi yang digunakan untuk melayani request dari pengguna sesuai dengan kebutuhan. Dynamically Assigned Port berkisar dari 1024 hingga 65536 dan dapat digunakan atau dilepaskan sesuai kebutuhan.
+                                            </li>
+                                        </ol>
+                                        Beberapa Fungsi dari Port Number :
+                                        <ul class="pt-2">
+                                            <li>
+                                                Mengizinkan sebuah komputer untuk mendukung beberapa sesi koneksi dengan komputer lainnya dan program di dalam jaringan
+                                            </li>
+                                            <li class="pt-2">
+                                                Mengidentifikasikan aplikasi dan layanan yang menggunakan koneksi di dalam jaringan TCP/IP.
+                                            </li>
+                                            <li class="pt-2">
+                                                Mengidentifikasikan sebuah proses tertentu di mana sebuah server dapat memberikan sebuah layanan kepada klien atau bagaimana sebuah klien dapat mengakses sebuah layanan yang ada dalam server.
+                                            </li>
+                                        </ul>
+                                        Prinsip kerja Port Number :
+                                        Secara singkat dalam komputer terdapat sebuah tempat yang dinamakan application data, didalam application data pesan yang diterima dari pengirim akan dihubungkan oleh suatu port yang disebut dengan port number. Sehingga pesan yang diterima akan melewati port number terlebih dahulu sebelum pesan tersebut masuk kedalam application layer. <br>
+                                        Alur kerja dalam Port Number adalah sebagai berikut :
+                                        <ol class="pt-2">
+                                            <li>
+                                                Kita mengetikkan URL dalam komputer dan URL tersebut akan dikonversi kedalam alamat IP oleh DNS. Contoh, www.cisco.com akan dikonversi menjadi 198.133.219.25.
+                                            </li>
+                                            <li class="pt-2">
+                                                Melalui alamat IP kita bisa mengakses web server, web server yang dapat diakses seperti HTTP, SMTP, FTP, dsb. Agar web server mengerti server mana yang akan kita tuju tiap-tiap web server memiliki port number masing-masing yang disebut dengan Well Unknown Port Number. Untuk HTTP memiliki port number 80, SMTP memiliki port number 25, dsb. Contoh, 
+                                                <ol type="a" class="pt-2">
+                                                    <li>kita ingin mengakses situs HTTP, pada TCP header akan ditambahkan port number tujuan 80 sehingga alamat IP menjadi 198.133.219.25:80 dan komputer kita akan mengirimkan port sumber misal 62213. </li>
+                                                    <li class="pt-2">Ketika web server mengetahui server apa yang ingin kita tuju web server akan mengirimkan alamat IP namun port tujuannya berubah mejadi 10.8.24.5:62213 dan web server akan mengirimkan port sumber 80.</li>
+                                                    <li class="pt-2">Ketika komputer kita menerima respon dari web server komputer akan mengecek port tujuannya data kemudian akan masuk kedalam application yang ingin digunakan dalam kasus ini adalah browser.</li>
+                                                </ol>
+                                            </li>
+                                        </ol>
+                                    </div> 
+                                </div>
+                            </div>
+                            <!-- ===== END PORT NUMBER======   -->
+
+                        </div>
+
+                    </p>
+                    <!-- ====== END TRANSPORT LAYER ===== -->
+
+                    <h3>Network Layer</h3>
+                    <p>
+                        Network Layer, menambahkan beberapa informasi tambahan dari segment dan menjadi packet dan menentukan jalur atau rute pengiriman packet data (Routing). Beberapa informasi yang ditambahkan adalah :
+                        <ul>
+                            <li>IP Adress pengirim</li>
+                            <li>IP Address penerima</li>
+                            <li>TTL(time to leave)</li>
+                            <li>Identifikasi</li>
+                        </ul>
+                    </p>
+
+                    <h3>Data Link</h3>
+                    <p>
+                        Data Link, Pada layer ini ada beberapa informasi ditambahkan dan menjadi frame, informasi yang ditambahkan seperti : 
+                        <ul>
+                            <li>MAC Adress Pengirim</li>
+                            <li>MAC Adress Penerima</li>
+                        </ul> 
+                        Data link layer juga memiliki fungsi diantara lain :
+                        <ul>
+                            <li>Pengkoreksi kesalahan</li>
+                            <li>Menentukan bagaimana setiap bit dari data dikelompokan ke dalam frame</li>
+                            <li>Pengalamatan perangkat keras</li>
+                            <li>Menentukan bagaimana sebuah perangkat keras dapat beroperasi. </li>
+                        </ul>
+                    </p>
+
+                    <h3>Physical Layer</h3>
+                    <p>
+                        Physical Layer, Sesuai dengan namanya, physical layer berarti merupakan lapisan yang berhubungan dengan fisik. Layer physical ini berhubungan erat dengan fungsi persinyalan, dan merupakan layer yang paling dekat dengan hardware alias perangkat keras jaringan secara fisik.
+                        Physical layer juga memiliki fungsi diantara lain :
+                        <ul>
+                            <li>Mendefinisikan media transmisi jaringan</li>
+                            <li>Mendefinisikan metode persinyalan</li>
+                            <li>Sinkronisasi bit data</li>
+                            <li>Mendefinisikan arsitektur jaringan</li>
+                            <li>Mengaplikasikan topologi jaringan</li>
+                            <li>Melakukan proses pengkabelan</li>
+                            <li>Mendefinisikan LAN Card atau NIC dalam bekerja dengan gelombang radio</li>
+                        </ul>
+                    </p>
+                    
+                    <br>                    
+                </div>
+
+            </div>
+        </div>
+
+        <div class="content-child mb-4">
+            <hr>
+            <div class="container">
+                <div class="container-model-ceksum">
+                    <h3>Tentang Checksum</h3>
+                    <p>
+                        Checksum adalah urutan angka dan huruf yang digunakan untuk memeriksa kesalahan data. Jika anda tahu checksum dari file asli, anda dapat menggunakan utilitas checksum untuk mengkonfirmasi salinan anda identik ataukah ada tambahan, pengurangan atau korup.
+                        Cara kerja Checksum :
+                        <ul>
+                            <li>
+                                Alur pemrosesan checksum pada pengirim
+                                <ol>
+                                    <li>Membagi pesan asli kedalam bentuk jumlah blok ‘k’ dengan ‘n’ bit yang berada dalam tiap blok. Contoh jika kita memiliki 20 bit dan kita menginginkan 4 blok, sehingga kita akan membagi 20 bit tersebut menjadi 4 blok dengan isi tiap blok adalah 5 bit.</li>
+                                    <li>Jumlahkan semua data pada blok ‘k’. </li>
+                                    <li>Jumlahkan carry kedalam hasil dari penjumlahan sebelumnya (Jika Ada)</li>
+                                    <li>Mengkomplemenkan hasil dari penjumlahan mwnggunakan 1 komplemen, yang berarti merubah bit 1 menjadi 0 dan bit 0 menjadi 1. Dalam tahap inilah yang disebut dengan checksum</li>
+                                </ol>
+                            </li>
+                            <li class="pt-4">
+                                Alur pemrosesan checksum pada penerima
+                                <ol>
+                                    <li>Mengumpulkan semua data blok termasuk checksum</li>
+                                    <li>Jumlahkan semua data blok dan checksum</li>
+                                    <li>Jika hasil nya sama, maka transmissi berhasil. Jika berbeda, maka transmissi error.</li>
+                                </ol>
+                            </li>
+                        </ul>
+        
+                        Contoh kerja Checksum : <br>
+                        <span class="ml-3">
+                            Anggap unit data dibawah ini merupakan data  yang ingin ditransmisi kan : 
+                        </span>
+                        <p class="font-weight-bolder pt-2 text-center bit">10011001111000100010010010000100 = 32 bit</p>  
+                        
+                    </p>
+                    <div class="container-card mx-auto">
+                        <p class="ml-3">Tahap - tahap pengerjaannya adalah </p>
+                        <div class="card-ceksum card mb-4" style="margin: 0 auto">
+                            <div class="card-body">
+                              <h5>1. Data akan dibagi menjadi 4 block</h5>                                    
+                            </div>
+                            <img src="src/tugas-3/checksum-1.svg" alt="checksum-tahap-1" class="img-responsive mx-auto d-block text-center mb-4 pt-3">
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="card-ceksum card mb-4" style="margin: 0 auto">
+                                    <div class="card-body">
+                                      <h5 class="pb-3" >2. Kemudian setiap bit pada blok-blok tersebut ditambahkan.</h5>                                    
+                                    </div>
+                                    <img src="src/tugas-3/checksum-2.svg" alt="checksum-tahap-2" class="img-responsive  mx-auto d-block text-center">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="card-ceksum card mb-4" style="margin: 0 auto">
+                                    <div class="card-body mb-1">
+                                      <h5>3. Karena hasil penjumlahan memiliki bit carry sehingga bit carry harus ditambahkan dalam hasil penjumlahan terakhir.</h5>                                    
+                                    </div>
+                                    <img src="src/tugas-3/checksum-3.svg" alt="checksum-tahap-3" class="img-responsive-ceksum3 text-center mx-auto d-block ">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="card-ceksum card mb-4" style="margin: 0 auto">
+                                    <div class="card-body">
+                                      <h5 class="pb-2" >4. Melakukan 1 komplemen ( bit 1 diubah menjadi bit 0 dan bit 0 diubah menjadi bit 1) dan kemudian kita mendapatkan nilai checksumnya</h5>                                    
+                                    </div>
+                                    <img src="src/tugas-3/checksum-4.svg" alt="checksum-tahap-4" class="img-responsive  text-center mx-auto d-block ">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="card-ceksum  card mb-2" style="margin: 0 auto">
+                                    <div class="card-body">
+                                      <h5 class="pb-2">5. Selanjutnya akan dilanjutkan oleh perhitungan checksum oleh penerima, jika hasil checksumnya sama maka transmisi data berhasil jika berbeda maka transmisi error.
+                                      </h5>
+                                      <img src="src/tugas-3/checksum-5.svg" alt="checksum-tahap-5" class="img-responsive-ceksum5 text-center mx-auto d-block ">                                    
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        
+        </div>
+ 
+        <div class="container refrensi mb-5">
+            <p class="text-center">
+                <a class="btn" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                    Refrensi
+                </a>
+             </p>
+            <div class="collapse" id="collapseExample">
+                <div class="card card-body">
+                    <ul>
+                        <li><a href="https://www.geeksforgeeks.org/tcp-ip-model/" target="_blank">https://www.geeksforgeeks.org/tcp-ip-model/</a></li>
+                        <li><a href="https://informatikalogi.com/internet-protocol-layer/" target="_blank">https://informatikalogi.com/internet-protocol-layer/</a></li>
+                        <li><a href="http://www.mikrotik.co.id/artikel_lihat.php?id=62" target="_blank">http://www.mikrotik.co.id/artikel_lihat.php?id=62</a></li>
+                        <li><a href="https://www.kacateknologi.com/pengertian-jenis-jenis-dan-fungsi-port/" target="_blank">https://www.kacateknologi.com/pengertian-jenis-jenis-dan-fungsi-port/</a></li>
+                        <li><a href="https://miqbal.staff.telkomuniversity.ac.id/layer-aplikasi-dan-port/" target="_blank">https://miqbal.staff.telkomuniversity.ac.id/layer-aplikasi-dan-port/</a></li>
+                        <li><a href="https://www.youtube.com/watch?v=AtVWnyDDaDI" target="_blank">https://www.youtube.com/watch?v=AtVWnyDDaDI</a></li>
+                        <li><a href="https://www.youtube.com/watch?v=RDotMcs0Erg&t=183s" target="_blank">https://www.youtube.com/watch?v=RDotMcs0Erg&t=183s</a></li>                
+                    </ul>
+                </div>
+              </div>
+
+        </div>
+
+    </section>
+
+    <footer>
+        <div class="container mt-3">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="src/tugas-5/Me.jpg" alt="Foto-Artia" class="mx-auto d-block">
+                </div>
+                <div class="col-md-6 bio">
+                    <p>Artia Audrian Aryatama</p>
+                    <p>D121191<span class="font-weight-bold">042</span></p>
+                    <p>Teknik Informatika B 2019</p>
+                    <p>Universitas Hasanuddin.</p>
+                    <p>Gowa, Sulsel [Indonesia]</p>
+                    
+                </div>
+            </div>
+        </div>
+        <hr class="mt-4">
+        <p class="font-italic pt-1 text-center footer-text">© Artia Aryatama 2020 </p>
+
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script>
+        // $('body').scrollspy({ target: '#navbar-example' })
+        // $('[data-spy="scroll"]').each(function () {
+        //     var $spy = $(this).scrollspy('refresh')
+        // })
+        $(function() {
+            $("[data-toggle='popover']").popover()
+        })
+
+        // javascript:alert("Nah! ini Javascript")
+    </script>
+  </body>
+</html>
