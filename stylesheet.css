@@ -224,3 +224,61 @@ footer hr {
         height: auto;
     }
 }
+
+/*----------------------------
+        Style Tugas 4
+--------------------------- */
+#tugas-4 .mekanisme img {
+    height: 350px;
+}
+#tugas-4 .main-content .text-muted {
+    font-size: 11px;
+}
+#tugas-4 .mekanisme .text-muted {
+    font-size: 11px;
+}
+#tugas-4 .container-model {
+    margin-right: 15vh;
+    margin-left: 15vh;
+}
+#tugas-4 .btn-link {
+    text-decoration: none;
+    color: #8b7050;
+    font-size: 25px;
+    font-weight: 300;
+}
+#tugas-4 .content-child .container-model span {
+    color: #8b7050;
+}
+#tugas-4 .sintaks .sintaks-text {
+    font-family: 'Courier Prime', monospace;
+}
+#tugas-4 .content-child .container-model .text-muted {
+    font-size: 9px;
+}
+#tugas-4 .content-child .container-model .congestion img {
+    height: 350px;
+}
+#tugas-4 .text-para p {
+    text-indent: 0.5in;
+    text-align: justify;
+}
+#tugas-4 .content-child .container-model .size-img img {
+    height: 330px;
+}
+@media screen and (max-width: 678px) {
+    #tugas-4 .container-model {
+        margin-right: 1vh;
+        margin-left: 1vh;
+    }
+    #tugas-4 .mekanisme img {
+        heigh: 65%;
+    }
+    #tugas-4 .content-child .container-model .congestion img {
+        width: 65%;
+        height: auto;
+    }
+    #tugas-4 .content-child .container-model .size-img img {
+        width: 65%;
+        height: auto;
+    }
