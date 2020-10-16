@@ -1,0 +1,416 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="stylesheet.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital@1&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/8706c481a3.js" crossorigin="anonymous"></script>
+
+    <title>Tugas Pertemuan 4 Jaringan Komputer</title>
+  </head>
+  <body id="tugas-4">
+    <nav class="navbar navbar-expand-md navbar-light ">
+        <div class="container">
+            <a class="navbar-brand active">
+                <img src="src/tugas-3/binary-code.svg" width="50" class="mr-3" height="50" alt="binary-code icon" loading="lazy">
+              </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Tugas Lain<span class="sr-only">(current)</span>
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="index.html">Pertemuan 3</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="tugas-5.html">Pertemuan 5</a>
+                    <div class="dropdown-divider"></div>
+                  </div>
+                </li>
+                <ul class="sosmed">
+                    <li> <a class="nav-link" href="https://github.com/artyaaryatama"target="_blank"><i class="fab fa-github""></i></a></li>
+                    <li> <a  class="nav-link"  href="https://www.instagram.com/artiaudr/" target="_blank"><i class="fab fa-instagram""></i></a> </li>
+                    <li> <a href="mailto:artyaaryatama21@gmail.com" target="_blank" class="nav-link"><i class="far fa-envelope" ></i></a> </li>
+                </ul>
+              </ul>
+            </div>
+        </div>
+    </nav>
+      <!-- === END OF NAVBAR === -->
+
+    <section class="section">
+        <div class="intro">
+            <div class="jumbotron">
+                <div class="container mt-3 mb-5">
+                    <div class="row jumbo-margin">
+                        <div class="col-md-3 text-center">
+                            <img src="src/tugas-4/data-transfer.svg" alt="Data Picture by Flaticon" class="jumbotron-image">
+                        </div>
+                        <div class="col-md-9">
+                            <h1 class="display-4">JARINGAN <span>KOMPUTER</span></h1>
+                            <p class="lead jumbo-text">Pemodelan Protokol Komunikasi Layer Transport Menggunakan Finite State Machine.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main-content">
+            <div class="container">
+                <div class="container-model text-para">
+                    <h2 class="text-center mb-3">Finite State Machine </h2>
+                    <div class="text-center">
+                        <img src="src/tugas-4/diagram-fsm.svg"  alt="Digram FSM" class="mx-auto d-block mb-1 mt-1 img-thumbnail">
+                        <p class="text-muted text-center font-italic mt-2">(Gambar 2) FSM sender RDT 3.0"</p>
+                    </div>
+                    <div class="mt-4">
+                        <h3>Apa itu Finite State Machine ?</h3>
+                        <p>
+                            FSM atau Finite State Machine adalah sebuah model komputasi yang digunakan untuk menggambarkan logika secara sekuensial, atau untuk menunjukkan dan kontrol alur eksekusi. Model komputasi FSM dibuat berdasarkan hypotical mesin yang membuat satu atau lebih state. Hanya satu (single) bit yang aktif pada mesin  ini, sehingga mesin harus berubah transisi dari state satu ke state yang lain untuk melakukan kegiatan yang berbeda. 
+                        </p>
+                        <p>
+                            FSM kadang disebut juga dengan FSA (Finite State Automata) berdasarkan Setiawan FSM adalah sebuah metodologi perancangan sistem kontrol yang menggambarkan tingkah laku atau prinsip kerja sistem dengan menggunakan tiga hal berikut: <i class="font-weight-bold">State</i> (Keadaan), <i class="font-weight-bold">Event</i> (kejadian) dan <i class="font-weight-bold">action</i> (aksi). Pada satu saat dalam periode waktu yang cukup signifikan, sistem akan berada pada salah satu state yang aktif. Sistem dapat beralih atau bertransisi menuju state lain jika mendapatkan masukan atau event tertentu, baik yang berasal dari perangkat luar atau komponen dalam sistemnya itu sendiri. Transisi keadaan ini umumnya juga disertai oleh aksi yang dilakukan oleh sistem ketika menanggapi masukan yang terjadi. Aksi yang dilakukan tersebut dapat berupa aksi yang sederhana atau melibatkan rangkaian proses yang relatif kompleks. 
+                        </p>
+                        <p>
+                            Diagram yang ada diatas memperlihatkan FSM dengan dua buah state dan dua buah input serta empat buah aksi output yang berbeda, seperti terlihat pada gambar, ketika sistem mulai dihidupkan, sistem akan bertransisi menuju state0, pada keadaan ini sistem akan menghasilkan Action1 jika terjadi masukan Event0, sedangkan jika terjadi Event1 maka Action2 akan dieksekusi kemudian sistem selanjutnya bertransisi ke keadaan State1 dan seterusnya.
+                        </p>
+                        <p>
+                            Dalam bahasa pemrograman prosedural seperti bahasa C, FSM ini umumnya direalisasikan dengan menggunakan statemen kontrol switch case atau/dan if..then. Dengan menggunakan statemen-statemen kontrol ini, aliran program secara praktis akan mudah dipahami dan dilacak jika terjadi kesalahan logika. Contoh penggunaan FSM dalam dunia nyata. <i class="font-weight-bold">Lampu lalu lintas.</i> Yang disebut State adalah lampu merah, lampu kuning, lampu hijau dan Transisi adalah setelah melewati waktu yang telah ditetapkan, lampu merah akan berubah menjadi lampu kuning, lampu kuning akan berubah menjadi lampu hijau, dan lampu hijau akan berubah menjadi lampu merah.
+                        </p>
+                        
+                        <h5>Kelebihan dan Kekurangan FSM (Menurut Brownlee) : </h5>
+                        Kelebihan 
+                        <ul>
+                            <li>Sederhana, sehingga mudah diimplementasikan</li>
+                            <li>Bisa diprediksi responnya</li>
+                            <li>Komputasi ringan</li>
+                            <li>Relatif fleksibel</li>
+                            <li>Merupakan metode AI lama yang bisa digunakan pada berbagai sistem</li>
+                            <li>Mudah ditransfer dari abstrak menjadi kode program</li>
+                        </ul>
+                        Kekurangan
+                        <ul>
+                            <li>Karena sifatnya bisa diprediksi, maka implementasi pada game kurang disukai</li>
+                            <li>Implementasi pada sistem yang lebih besar lebih sulit karena pengaturan dan pemeliharaannya jadi kompleks</li>
+                            <li>Sebaiknya hanya digunakan pada sistem dimana sifat sistem bisa didekomposisi menjadi state.</li>
+                        </ul>
+                        
+                    </div>
+            
+                </div>
+
+            </div>
+        </div>
+
+        <div class="content-child mt-5 mb-4">
+            <hr>
+            <div class="mekanisme container">
+                <div class="container-model">
+                    <h3 class="text-center mb-4 mt-4">Prinsip kerja FSM pada sender side</h3>
+                    <img src="src/tugas-4/sender-fsm.svg" alt="(Gambar 2) FSM sender RDT 3.0" class="mx-auto d-block mb-1 mt-1 img-thumbnail">
+                    <p class="text-muted text-center font-italic mt-2">(Gambar 2) FSM sender RDT 3.0"</p>
+                    <div class="mt-4 text-para">
+                        <p>
+                            Ketika proses mengirimkan data terkadang kita mendapatkan kesalahan, seperti bit error atau packet loss. Dengan RDT 3.0 kesalahan tersebut dapat ditangani dengan menggunakan checksum, sequence number, ACK packets, dan retransmission. Beberapa tanda penting yang harus diperhatikan adalah :
+                            <ul>
+                                <li><i class="font-weight-bold">Tanda panah putus-putus</i> : Menunjukkan state awal FSM (inisialisasi)</li>
+                                <li><i class="font-weight-bold">Tanda panah biru</i> : Proses transisi dari state satu ke state lain (termasuk satu state kembali ke state asalnya).</li>
+                                <li><i class="font-weight-bold">Garis horizontal</i> : Menandakan event dan action pada state tertentu. Contoh event adalah rdt_send(data), timeout, rdt_rcv(rcvpkt) && (corrupt(rcvpkt) || isACK(rcvpkt, 0)), dsb. Contoh action adalah Ʌ, udt_send(sendpkt), stop_timer, dsb.</li>
+                                <li><i class="font-weight-bold">Simbol ( Ʌ )</i> : Menandakan bahwa tidak ada action untuk event tersebut.</li>
+                            </ul>
+                        </p>
+                        Penjelasan tiap state pada Sender Side RDT 3.0 :  <span class="pl-3 disabled" style="font-size: 12px;"> ( Klik nama state) </span>
+
+                        <div class="acordion sintaks" id="bagian1">
+                            <div class="card mb-2 mt-2">
+                                <div class="card-header header-card-content" id="header1">
+                                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse1"><h5><u>Wait for call 0 from above </u></h5></button>
+                                </div>
+                                <div id="collapse1" class="collapse" aria-labelledby="header1" data-parent="#bagian1">
+                                    <div class="card-body">
+                                        <h3>Wait for call 0 from above </h3>
+                                        Pada state ini data dari application layer akan di kirim ke transport layer ditandai dengan 2 event yaitu : 
+                                        <ol type="a">
+                                            <li class="mb-3">
+                                                <span>rdt_send(data)</span>, event ini berarti data telah diterima transport layer kemudian akan dilanjut dengan action di dalam event ini: 
+                                                <ul>
+                                                    <li><i class="sintaks-text">sndpkt = make_pkt(0, data, checksum)</i>  :  Ubah data ke dalam bentuk paket dan tambahkan informasi berupa ACK 0, data, kemudian checksum.</li>
+                                                    <li><i class="sintaks-text">udt_send(sndpkt)</i> : Kirim paket ke network layer</li>
+                                                    <li><i class="sintaks-text">start_timer</i> : Mulai countdown </li>
+                                                </ul>
+                                            </li>
+                                            <li>
+                                                <span>rdt_rcv(rcvpkt)</span>, untuk event ini akan dimulai ketika state wait for ACK 1 telah dijalankan. Event ini berarti bahwa reveiver menerima paket dan ACK yang diterima sesuai dengan yang dikirim sender.   <br>
+                                                <i class="sintaks-text">Pada event ini tidak ada action apapun ( Ʌ ). </i>
+                                            </li>
+                                        </ol>
+                                    </div> 
+                                </div>
+                            </div>
+                            <!-- =====END state 1======   -->
+    
+                            <div class="card mb-2">
+                                <div class="card-header header-card-content" id="header2">
+                                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse2"><h5><U>Wait for ACK 0</U></h5></button>
+                                </div>
+                                <div id="collapse2" class="collapse" aria-labelledby="header2" data-parent="#bagian1" >
+                                    <div class="card-body">
+                                       <h3>Wait for ACK 0</h3>
+                                       Pada state ini ditandai dengan  3 event yaitu 
+                                       <ol type="a">
+                                           <li class="mb-3">
+                                               <span>rdt_rcv(rcvpkt) && ( corrupt(rcvpkt)) || isACK(rcvpkt, 1) )</span>, event ini berarti bahwa sender side menerima ack 1 walaupun state aktif sekarang wait for ACK 0, hal ini menandakan bahwa paket atau ACK yang diterima oleh receiver tercorrupt. <br>
+                                               <i class="sintaks-text">Pada event ini tidak ada action apapun ( Ʌ ). </i><br>
+                                               Kemudian state akan kembali menjadi wait for ACK 0 dan menunggu hingga event selanjutnya (timeout). 
+                                           </li>
+                                           <li class="mb-3">
+                                               <span>timeout</span>, event ini berarti waktu countdown yang dimulai pada state sebelumnya telah habis. Karena ACK 0 belum diterima oleh sender, kemudian dilanjut dengan action pada event ini :
+                                               <ul>
+                                                   <li><i class="sintaks-text">udt_send(sndpkt)</i> : Mengirimkan ulang paket</li>
+                                                   <li><i class="sintaks-text">start_timer</i>  : Mulai countdown timer</li>
+                                               </ul>                                                
+                                                Kemudian state akan kembali menjadi wait for ACK 0 dan menunggu hingga event selanjutnya (rdt_rcv(rcvpkt) && notcorrupt(rcvpkt) && isACK(rcvpkt, 0) ). 
+                                           </li>
+                                           <li>
+                                               <span>rdt_rcv(rcvpkt) && notcorrupt(rcvpkt) && isACK(rcvpkt, 0)</span>, event ini berarti paket dengan ACK 0 diterima dan tidak ada data yang tercorrupt, sehingga dilanjut dengan action pada event ini :
+                                               <ul>
+                                                   <li><i class="sintaks-text">stop_timer</i> : Matikan countdown.</li>
+                                               </ul>
+                                           </li>
+                                       </ol>
+                                    </div> 
+                                </div>
+                            </div>
+                            <!-- =====END STATE 2======   -->
+    
+                            <div class="card mb-2">
+                                <div class="card-header header-card-content" id="header3">
+                                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse3"><h5><u>Wait for call 1 from above</u></h5></button>
+                                </div>
+                                <div id="collapse3" class="collapse size-img" aria-labelledby="header3" data-parent="#bagian1" >
+                                    <div class="card-body">
+                                        <h3>Wait for call 1 from above</h3>
+                                        Pada state ini ditandai dengan 2 event :
+                                        <ol type="a">
+                                            <li class="mb-3">
+                                                <span>rdt_rcv(rcvpkt)</span>, event ini berarti bahwa reveiver menerima paket dan ACK yang diterima sesuai dengan yang dikirim sender.  <br> 
+                                                <i class="sintaks-text">Pada event ini tidak ada action apapun ( Ʌ ). </i>
+                                            </li>
+                                            <li>
+                                                <span>rdt_send(data)</span>, event ini berarti data telah diterima transport layer sender, kemudian akan dilanjut dengan action di dalam event ini:
+                                                <ul>
+                                                    <li><i class="sintaks-text">sndpkt = make_pkt(1, data, checksum) </i>:  Ubah data ke dalam bentuk paket dan tambahkan informasi berupa ACK 1, data, kemudian checksum. </li>
+                                                    <li><i class="sintaks-text">udt_send(sndpkt)</i> : Kirim paket ke network layer</li>
+                                                    <li><i class="sintaks-text">start_timer </i>: Mulai countdown </li>
+                                                </ul>
+                                            </li>
+                                        </ol>
+                                    </div> 
+                                </div>
+                            </div>
+                            <!-- =====END STATE 3=====   -->
+    
+                            <div class="card mb-2">
+                                <div class="card-header header-card-content" id="header4">
+                                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse4"><h5><u>Wait for ACK 1</u></h5></button>
+                                </div>
+                                <div id="collapse4" class="collapse" aria-labelledby="header4" data-parent="#bagian1" >
+                                    <div class="card-body">
+                                        <h3>Wait for ACK 1</h3>
+                                        Pada state ini ditandai dengan  3 event yaitu :
+                                        <ol type="a">
+                                            <li class="mb-3">
+                                                <span>rdt_rcv(rcvpkt) && ( corrupt(rcvpkt)) || isACK(rcvpkt, 0) )</span>, event ini berarti bahwa sender side menerima ack 0 walaupun state aktif sekarang wait for ACK 1, hal ini menandakan bahwa paket atau ACK yang diterima oleh receiver tercorrupt. <br>
+                                                <i class="sintaks-text">Pada event ini tidak ada action apapun ( Ʌ ). </i> <br>
+                                                Kemudian state akan kembali menjadi wait for ACK 1 dan menunggu hingga event selanjutnya (timeout). 
+                                            </li>
+                                            <li class="mb-3">
+                                                <span>timeout</span>, event ini berarti waktu countdown yang dimulai pada state sebelumnya telah habis. Karena ACK 1 belum diterima oleh sender, kemudian dilanjut dengan action pada event ini :
+                                                <ul>
+                                                    <li><i class="sintaks-text">udt_send(sndpkt) </i>: Mengirimkan ulang paket</li>
+                                                    <li><i class="sintaks-text">start_timer</i> : Mulai countdown timer</li>
+                                                </ul>
+                                                Kemudian state akan kembali menjadi wait for ACK 1 dan menunggu hingga event selanjutnya (rdt_rcv(rcvpkt) && notcorrupt(rcvpkt) && isACK(rcvpkt, 1) ). 
+                                            </li>
+                                            <li>
+                                                <span>rdt_rcv(rcvpkt) && notcorrupt(rcvpkt) && isACK(rcvpkt, 0)</span>, event ini berarti paket dengan ACK 1 diterima dan tidak ada data yang tercorrupt, sehingga dilanjut dengan action pada event ini :
+                                                <ul>
+                                                    <li><i class="sintaks-text">stop_timer</i> : Matikan countdown </li>
+                                                </ul>
+                                            </li>
+                                        </ol>
+                                    </div> 
+                                </div>
+                            </div>
+                            <!-- =====END STATE 4======   -->
+    
+                        </div>
+                        <!-- ===== END DIV Acordion ===== -->
+
+                    </div>
+                </div>                
+            </div>
+        </div>
+
+
+        <div class="content-child mt-5 mb-4">
+            <hr>
+            <div class="mekanisme container">
+                <div class="container-model">
+                    <h3 class="text-center mb-4 mt-4">Prinsip kerja FSM pada receiver side</h3>
+                    <img src="src/tugas-4/receiver-fsm.svg" alt="(Gambar 2) FSM receiver RDT 2.2" class="mx-auto d-block mb-1 mt-1 img-thumbnail">
+                    <p class="text-muted text-center font-italic mt-2">(Gambar 2) FSM receiver RDT 2.2</p>
+                    <div class="mt-4 text-para">
+                        <p>
+                            FSM dari receiver side menggunakan RDT 2.2, perbedaan dari FSM sender dengan FSM receiver side adalah timeout. Pada FSM sender side waktu timeout mengalami penambahan. 
+                        </p>
+                        Penjelasan tiap state pada Receiver Side RDT 2.2 :  <span class="pl-3 disabled" style="font-size: 12px;"> ( Klik nama state) </span>
+
+                        <div class="acordion sintaks" id="bagian1">
+                            <div class="card mb-2 mt-2">
+                                <div class="card-header header-card-content" id="header1">
+                                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse1"><h5><u>Wait for 0 from below</u></h5></button>
+                                </div>
+                                <div id="collapse1" class="collapse" aria-labelledby="header1" data-parent="#bagian1">
+                                    <div class="card-body">
+                                        <h3>Wait for 0 from below</h3>
+                                        Pada state ini ditandai dengan  2 event yaitu : 
+                                        <ol type="a">
+                                            <li class="mb-3">
+                                                <span>rdt_rcv(rcvpkt && notcorrupt(rcvpkt) && has_seq0(rcvpkt)</span>, event ini berarti bahwa paket yang dikirim sender masuk ke layer network. Paket ini tidak tercorrupt serta memiliki sequence number 0 sesuai dengan yang dikirim oleh sender. Kemudian dilanjut dengan action pada event ini :
+                                                <ul>
+                                                    <li><i class="sintaks-text">extract(rcvpkt,data) </i>: Lakukan ekstraksi pada paket, sehingga menjadi kedalam bentuk data dalam transport layer.</li>
+                                                    <li><i class="sintaks-text">deliver_data(data) </i>: Kirim data ke application layer</li>
+                                                    <li><i class="sintaks-text">sndpkt=make_pkt(ACK,0,checksum)</i>: Ubah data ke dalam bentuk paket dan tambahkan informasi berupa ACK, sequence number 0 (nol), kemudian checksum.</li>
+                                                    <li><i class="sintaks-text">udt_send(sndpkt)</i> : Kirim paket ke network layer </li>
+                                                </ul>
+                                            </li>
+                                            <li>
+                                                <span>dt_rcv(rcvpkt) && ( corrupt(rcvpkt)||has_seq1(rcvpkt) )</span>, untuk event ini akan dimulai ketika <i class="font-weight-bold">state wait for 1 from below</i> telah dijalankan. Event ini akan aktif apabila paket yang diterima tercorrupt atau memiliki sequence number 1 (perhatikan bahwa sequence number yang diharapkan oleh receiver adalah 0). Kemudian akan dilanjut oleh action pada event ini : 
+                                                <ul>
+                                                    <li><i class="sintaks-text">sndpkt=make_pkt(ACK, 1, checksum) </i>: Buat paket yang berisi informasi berupa ACK, sequence number 1, kemudian checksum.</li>
+                                                    <li><i class="sintaks-text">udt_send(sndpkt)</i> : Kirim paket ke network layer </li>
+                                                </ul>
+                                                Kemudian state akan kembali menjadi wait for 0 from below dan menunggu hingga event selanjutnya <i class="sintaks-text">( rdt_rcv(rcvpkt && notcorrupt(rcvpkt) && has_seq0(rcvpkt) ). </i>
+                                            </li>
+                                        </ol>
+                                    </div> 
+                                </div>
+                            </div>
+                            <!-- =====END state 1======   -->
+    
+                            <div class="card mb-2">
+                                <div class="card-header header-card-content" id="header2">
+                                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse2"><h5><U>Wait for 1 from below</U></h5></button>
+                                </div>
+                                <div id="collapse2" class="collapse" aria-labelledby="header2" data-parent="#bagian1" >
+                                    <div class="card-body">
+                                       <h3>Wait for 1 from below</h3>
+                                       State ini akan aktif apabila sequence number yang dikirim oleh sender adalah 1. Pada state ini ditandai dengan 2 event yaitu :
+                                       <ol type="a">
+                                           <li class="mb-3">
+                                               <span>rdt_rcv(rcvpkt) && ( corrupt(rcvpkt)|| has_seq0(rcvpkt) )</span>, event ini akan aktif apabila paket yang diterima tercorrupt atau memiliki sequence number 0 (perhatikan bahwa sequence number yang diharapkan oleh receiver adalah 1). Sehingga akan ada satu masalah dalam pengiriman paket, paket mengalami corrupt atau paket yang dikirim duplikat. Kemudian akan dilanjut oleh action pada event dibawah ini :
+                                               <ul>
+                                                   <li><i class="sintaks-text">sndpkt=make_pkt(ACK,0,checksum)</i> : Buat paket yang berisi informasi berupa ACK, sequence number 0 (nol), kemudian checksum.</li>
+                                                   <li><i class="sintaks-text">udt_send(sndpkt)</i> : Kirim paket ke network layer</li>
+                                               </ul>
+                                               Jika paket terindikasi mengalami corrupt atau duplikat maka penerima tidak akan mengekstrak paket tersebut melainkan hanya mengirimkan paket yang berisi ACK, sequence number 0 dan checksum. 
+                                               Kemudian state akan kembali menjadi wait for 1 from below dan menunggu hingga event selanjutnya <i class="sintaks-text">( rdt_rcv(rcvpkt) && notcorrupt(rcvpkt) && has_seq1(rcvpkt)). </i>
+                                               
+                                           </li>
+                                           <li>
+                                               <span>rdt_rcv(rcvpkt) && notcorrupt(rcvpkt) && has_seq1(rcvpkt)</span>, event ini berarti bahwa paket yang dikirim sender masuk ke layer network. Paket ini tidak tercorrupt serta memiliki sequence number 1 sesuai dengan yang dikirim oleh sender. Kemudian dilanjut dengan action pada event ini :
+                                               <ul>
+                                                   <li><i class="sintaks-text">extract(rcvpkt,data)</i> : Lakukan ekstraksi pada paket, sehingga menjadi kedalam bentuk data dalam transport layer</li>
+                                                   <li><i class="sintaks-text">deliver_data(data) </i>: Kirim data ke application layer</li>
+                                                   <li><i class="sintaks-text">sndpkt=make_pkt(ACK,1,checksum)</i> : Ubah data ke dalam bentuk paket dan tambahkan informasi berupa ACK, sequence number 1, kemudian checksum.</li>
+                                                   <li><i class="sintaks-text">udt_send(sndpkt)</i> : Kirim paket ke network layer</li>
+                                               </ul>  
+                                               Jika pada state selanjutnya paket tercorrupt atau terdapat duplikasi paket, kemudian paket tidak akan diekstrak, receiver akan mengirimkan pesan ACK, sequence number 1 yang ada dalam state <i class="font-witght-bold">wait for 0 from below</i> pada event <i class="sintaks-text">rdt_rcv(rcvpkt) && ( corrupt(rcvpkt)||has_seq1(rcvpkt)). </i>                            
+                                           </li>
+                                       </ol>
+                                    </div> 
+                                </div>
+                            </div>
+                            <!-- =====END STATE 2======   -->
+                        </div>
+                        <!-- ===== END DIV Acordion ===== -->
+
+                    </div>
+                </div>                
+            </div>
+        </div>
+
+
+
+ 
+        <div class="container container-model refrensi mb-5 mt-3">
+            <p class="text-center">
+                <a class="btn" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                    Refrensi
+                </a>
+             </p>
+            <div class="collapse" id="collapseExample">
+                <div class="card card-body">
+                    <ul>
+                        <li><a href="http://blog.ub.ac.id/zulfahmi/2016/04/18/finite-state-machine/" target="_blank">http://blog.ub.ac.id/zulfahmi/2016/04/18/finite-state-machine/ </a></li>
+                        <li><a href="https://medium.com/@mlbors/what-is-a-finite-state-machine-6d8dec727e2c" target="_blank">https://medium.com/@mlbors/what-is-a-finite-state-machine-6d8dec727e2c </a></li>
+                        <li><a href="http://www.elektro.undip.ac.id/iwan/Perancangan%20Software%20Embedded%20System%20Berbasis%20FSM.pdf " target="_blank">http://www.elektro.undip.ac.id/iwan/Perancangan%20Software%20Embedded%20System%20Berbasis%20FSM.pdf</a></li>
+                        <li><a href="https://eclass.teicrete.gr/modules/document/file.php/TP326/%CE%98%CE%B5%CF%89%CF%81%CE%AF%CE%B1%20(Lectures)/Computer_Networking_A_Top-Down_Approach.pdf" target="_blank">Kurose, James F., Ross, Keith W. 2010.<span class="text-italic"> Computer Networking : A Top-Down Approach (Sixth Edition).</span> USA: Pearson Education inc.</a></li>                
+                    </ul>
+                </div>
+              </div>
+
+        </div>
+
+    </section>
+
+    <footer>
+        <div class="container mt-3">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="src/tugas-5/Me.jpg" alt="Foto-Artia" class="mx-auto d-block">
+                </div>
+                <div class="col-md-6 bio">
+                    <p>Artia Audrian Aryatama</p>
+                    <p>D121191<span class="font-weight-bold">042</span></p>
+                    <p>Teknik Informatika B 2019</p>
+                    <p>Universitas Hasanuddin.</p>
+                    <p>Gowa, Sulsel [Indonesia]</p>
+                    
+                </div>
+            </div>
+        </div>
+        <hr class="mt-4">
+        <p class="font-italic pt-1 text-center footer-text">© Artia Aryatama 2020 </p>
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script>
+        // $('body').scrollspy({ target: '#navbar-example' })
+        // $('[data-spy="scroll"]').each(function () {
+        //     var $spy = $(this).scrollspy('refresh')
+        // })
+        $(function() {
+            $("[data-toggle='popover']").popover()
+        })
+
+        // javascript:alert("Nah! ini Javascript")
+    </script>
+  </body>
+</html>
